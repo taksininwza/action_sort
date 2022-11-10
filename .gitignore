@@ -2,6 +2,7 @@
 sandbox/
 out/
 .vscode/
+tsconfig.json
 # Logs
 logs
 *.log
