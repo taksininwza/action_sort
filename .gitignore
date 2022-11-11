@@ -1,7 +1,18 @@
 #My
 sandbox/
 out/
+obj/
+Packages/
+ProjectSettings/
+Library/
+Temp/
+* Assets/
+Scenes/
+UserSettings/
 .vscode/
+*.meta
+*.sln
+*.csproj
 tsconfig.json
 # Logs
 logs
