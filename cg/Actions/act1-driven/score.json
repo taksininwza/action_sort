@@ -1,0 +1,871 @@
+{
+    "driven": {
+        "Desciption": [
+            "Perfect: x 1 (100%)",
+            "Good: x 0.7 (70%)",
+            "Weak: x 0.4 (40%)",
+            "Fail: x 0.1 (10%)",
+            "n/a: x 0.0 (0%)",
+            "Missing Name, ID, or No: -5%",
+            "MaxPoints: 5.5"
+        ],
+        "no.2": {
+            "TotalPoints": 2.06,
+            "Note": [
+                "0.5+0.2+0.05+0.5+0+0.16+0.1+0.05",
+                "Bonus 0.5 ชอบไอเดีย แมลงเต่าทอง ใบไม้และก้อนหิน"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Weak, Invalid Condition https://docs.google.com/presentation/d/1koYHfbWOgdEWP0TI8AoZaBnWtHOAD2nNVqAjGFNtnAo/edit#slide=id.g188b67b7d83_2_112 , Object(player)",
+                    "Points": 0.2
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "Fail, จากหัวข้อใน discription เริ่มจนถึงจบ ยังไม่มีการทำงานตามที่กำหนด",
+                    "Points": 0.05
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "Perfect, แต่ใช้เวลาในหัวข้อนี้นานมาก 9:43-21:45",
+                    "Points": 0.5
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "n/a",
+                    "Points": 0
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Weak, Object(obtracle)",
+                    "Points": 0.16
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "collision_enter_2d_destroy_obstacle-0.5-points": {
+                    "Rating": "Fail, จากหัวข้อใน discription เริ่มจนถึงจบ ยังไม่มีการทำงานตามที่กำหนด",
+                    "Points": 0.05
+                }
+            }
+        },
+        "no.20": {
+            "TotalPoints": 1.39,
+            "Note": [
+                "0.05+0.2+0.2+0.05+0.35+0.16+0.01+0.05+0.16+0.01+0.05+0.05+0.05"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": {
+                    "Rating": "Fail",
+                    "Points": 0.05
+                },
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Weak, Object(player)",
+                    "Points": 0.2
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "Weak, ในหัวข้อไปพูดเรื่องไม่เกี่ยวข้องเช่น translate_player และ ไม่มีการ run เพื่อแสดงผลการทำงาน",
+                    "Points": 0.2
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "Fail, ช่วงเวลาในหัวข้อ ทับซ้อนกับหัวข้ออื่นๆ",
+                    "Points": 0.05
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "Good, ขาดการอธิบายขณะทำ หรืออาจจะอธิบายแต่เสียงเบาจนไม่ได้ยิน",
+                    "Points": 0.35
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Weak, Object(obtracle)",
+                    "Points": 0.16
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "Fail, จากหัวข้อใน discription เริ่มจนถึงจบ ยังไม่มีการทำงานตามที่กำหนด",
+                    "Points": 0.01
+                },
+                "collision_enter_2d_destroy_obstacle-0.5-points": {
+                    "Rating": "Fail, ช่วงเวลาในหัวข้อ ทับซ้อนกับหัวข้ออื่นๆ",
+                    "Points": 0.05
+                },
+                "CREATE_ITEM-0.4_points": {
+                    "Rating": "Weak, Object(item)",
+                    "Points": 0.16
+                },
+                "item_5_object-0.1_points": {
+                    "Rating": "Fail, ช่วงเวลาในหัวข้อ ทับซ้อนกับหัวข้ออื่นๆ",
+                    "Points": 0.01
+                },
+                "on_trigger_enter_2d_destroy_item_0.5-points": {
+                    "Rating": "Fail, จากหัวข้อใน discription เริ่มจนถึงจบ ยังไม่มีการทำงานตามที่กำหนด",
+                    "Points": 0.05
+                },
+                "on_trigger_enter_2d_change_color_0.5-points": {
+                    "Rating": "Fail, จาก เวลาใน driscription เปิดมาพบว่ามีโค้ดเขียนเสร็จแล้ว",
+                    "Points": 0.05
+                },
+                "on_trigger_enter_2d_speed_up_0.5-points": {
+                    "Rating": "Fail, ช่วงเวลาในหัวข้อ ทับซ้อนกับหัวข้ออื่นๆ",
+                    "Points": 0.05
+                }
+            }
+        },
+        "no.16": {
+            "TotalPoints": 3.67,
+            "Note": [
+                "0.35+0.16+0.1+0.35+0.16+0.1+0.2+0.2+0.35+0.5+0.5+0.2+0.5"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Weak, Object(player)",
+                    "Points": 0.2
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "Good, ตอนเขียนโค้ดเสียเวลากับการใช้ object ที่ยังไม่ประกาศ",
+                    "Points": 0.35
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Weak, Object(obtracle)",
+                    "Points": 0.16
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "collision_enter_2d_destroy_obstacle-0.5-points": {
+                    "Rating": "Good, มี Bug ตรงที่หากไปชนวัตถุอื่นๆที่มี collision มันจะถูกทำลายไปด้วย",
+                    "Points": 0.35
+                },
+                "CREATE_ITEM-0.4_points": {
+                    "Rating": "Weak, Object(item)",
+                    "Points": 0.16
+                },
+                "item_5_object-0.1_points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "on_trigger_enter_2d_destroy_item_0.5-points": {
+                    "Rating": "Weak, มี Bug ตรงที่หากไปชนวัตถุอื่นๆที่มี collision มันจะถูกทำลายไปด้วย และ ไม่มีการแสดงผลการทำงานภายในหัวข้อ",
+                    "Points": 0.2
+                },
+                "on_trigger_enter_2d_change_color_0.5-points": {
+                    "Rating": "Weak, มี Bug ตรงที่หากไปชนวัตถุอื่นๆที่มี collision มันจะเปลี่ยนสีไปด้วย และ ไม่มีการแสดงผลการทำงานภายในหัวข้อ",
+                    "Points": 0.2
+                },
+                "on_trigger_enter_2d_speed_up_0.5-points": {
+                    "Rating": "Good, ความเร็วไม่ถูกต้องตามโจทย์",
+                    "Points": 0.35
+                }
+            }
+        },
+        "no.17": {
+            "TotalPoints": 4.12,
+            "Note": [
+                "0.5+0.2+0.05+0.35+0.5+0.16+0.1+0.5+0.16+0.1+0.5+0.5+0.5"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Weak, Object(player)",
+                    "Points": 0.2
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "Fail, จากหัวข้อใน discription เริ่มจนถึงจบ ยังไม่มีการทำงานตามที่กำหนด 22:02-22:37",
+                    "Points": 0.05
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "Good, ในหัวข้อไปพูดเรื่องไม่เกี่ยวข้องเช่น rotate_player",
+                    "Points": 0.35
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Weak, Object(obtracle)",
+                    "Points": 0.16
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "collision_enter_2d_destroy_obstacle-0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_ITEM-0.4_points": {
+                    "Rating": "Weak, Object(item)",
+                    "Points": 0.16
+                },
+                "item_5_object-0.1_points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "on_trigger_enter_2d_destroy_item_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "on_trigger_enter_2d_change_color_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "on_trigger_enter_2d_speed_up_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                }
+            }
+        },
+        "no.12": {
+            "TotalPoints": 1.48,
+            "Note": [
+                "0.05+0.2+0.05+0.05+0.35+0.16+0.1+0.2+0.04+0.1+0.35+0.2 = 1.85",
+                "-20% = 0.37, เงื่อนไขข้อ e. ห้ามปรากฏส่วนใดส่วนหนึ่งของ slide",
+                "1.85-0.37=1.48"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": {
+                    "Rating": "Fail, not new project",
+                    "Points": 0.05
+                },
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Weak, Object(player)",
+                    "Points": 0.2
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "Fail, 5:28 เริ่มมามีโค้ดอยู่แล้ว",
+                    "Points": 0.05
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "Fail, 6:58 เริ่มมามีโค้ดอยู่แล้ว",
+                    "Points": 0.05
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "Good, ขาดการอธิบายขณะทำ หรือแค่พูดตามสิ่งที่พิมพ์",
+                    "Points": 0.35
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Weak, ",
+                    "Points": 0.16
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "collision_enter_2d_destroy_obstacle-0.5-points": {
+                    "Rating": "Weak, มี Bug ตรงที่หากไปชนวัตถุอื่นๆที่มี collision มันจะถูกทำลายไปด้วย และ ขาดการอธิบายขณะทำ หรือแค่พูดตามสิ่งที่พิมพ์",
+                    "Points": 0.2
+                },
+                "CREATE_ITEM-0.4_points": {
+                    "Rating": "Fail, not create just rename",
+                    "Points": 0.04
+                },
+                "item_5_object-0.1_points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "on_trigger_enter_2d_destroy_item_0.5-points": {
+                    "Rating": "Good, ใช้เวลาในการแก้ไขนานเกินไป เนื่องจากแก้ไม่ตรงกับ error ที่ unity แจ้ง",
+                    "Points": 0.35
+                },
+                "on_trigger_enter_2d_change_color_0.5-points": {
+                    "Rating": "Weak, หัวข้อนี้ 27:21 แต่มีโค้ดที่เกี่ยวข้องถูกเขียนไว้ก่อน เช่น การประกาศ spriteRenderer ",
+                    "Points": 0.2
+                }
+            }
+        },
+        "no.7": {
+            "TotalPoints": 1.68,
+            "Note": [
+                "0+0.2+0.05+0.35+0.5+0.04+0.1+0.05+0.16+0.1+0+0.05+0.5 = 2.1",
+                "-20%, เงื่อนไขข้อ e. ห้ามปรากฏส่วนใดส่วนหนึ่งของ slide",
+                "2.1-20%=1.68"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": {
+                    "Rating": "n/a",
+                    "Points": 0
+                },
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Weak, Object(player)",
+                    "Points": 0.2
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "Fail, จากหัวข้อใน discription เริ่มจนถึงจบ ยังไม่มีการทำงานตามที่กำหนด 03:02-03:52",
+                    "Points": 0.05
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "Good, ในหัวข้อไปพูดเรื่องไม่เกี่ยวข้องเช่น rotate_player",
+                    "Points": 0.35
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Fail, จากหัวข้อใน discription เริ่มจนถึงจบ ยังไม่มีการทำงานตามที่กำหนด 14:02-14:43",
+                    "Points": 0.04
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "collision_enter_2d_destroy_obstacle-0.5-points": {
+                    "Rating": "Fail, 19:19-22:41",
+                    "Points": 0.05
+                },
+                "CREATE_ITEM-0.4_points": {
+                    "Rating": "Weak, Object(item)",
+                    "Points": 0.16
+                },
+                "item_5_object-0.1_points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "on_trigger_enter_2d_destroy_item_0.5-points": {
+                    "Rating": "n/a, start 22:41 แต่สร้าง item 31:57",
+                    "Points": 0
+                },
+                "on_trigger_enter_2d_change_color_0.5-points": {
+                    "Rating": "Fail, Object(player) เปลี่ยนสีตามสีของ Object(item) แต่ code บังคับ color = blue",
+                    "Points": 0.05
+                },
+                "on_trigger_enter_2d_speed_up_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                }
+            }
+        },
+        "no.22": {
+            "TotalPoints": 2.72,
+            "Note": [
+                "0.5+0.5+0.05+0.05+0.35+0.4+0.1+0.35+0.4+0.1+0.05+0.05+0.5 = 3.4",
+                "-20%, เงื่อนไขข้อ e. ห้ามปรากฏส่วนใดส่วนหนึ่งของ slide",
+                "3.4 - 20% = 2.72"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "Fail, 13:43 มีโค้ดที่เกี่ยวข้องปรากฏอยู่ก่อน",
+                    "Points": 0.05
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "Fail, 14.10 มีโค้ดที่เกี่ยวข้องปรากฏอยู่ก่อน",
+                    "Points": 0.05
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "Good, ขาดการอธิบายขณะทำ หรือแค่พูดตามสิ่งที่พิมพ์",
+                    "Points": 0.35
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.4
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "collision_enter_2d_destroy_obstacle-0.5-points": {
+                    "Rating": "Good, มี Bug ตรงที่หากไปชนวัตถุอื่นๆที่มี collision มันจะถูกทำลายไปด้วย ซึ่งโจทย์กำหนดแค่ obstracle",
+                    "Points": 0.35
+                },
+                "CREATE_ITEM-0.4_points": {
+                    "Rating": "Perfect",
+                    "Points": 0.4
+                },
+                "item_5_object-0.1_points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "on_trigger_enter_2d_destroy_item_0.5-points": {
+                    "Rating": "Fail, 33:54 มีโค้ดที่เกี่ยวข้องปรากฏอยู่ก่อน if(tag == item) ",
+                    "Points": 0.05
+                },
+                "on_trigger_enter_2d_change_color_0.5-points": {
+                    "Rating": "Fail, 32:57 มีโค้ดที่เกี่ยวข้องปรากฏอยู่ก่อน if(tag == item)",
+                    "Points": 0.05
+                },
+                "on_trigger_enter_2d_speed_up_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                }
+            }
+        },
+        "no.9": {
+            "TotalPoints": 2.33,
+            "Note": [
+                "0.5+0.2+0.05+0.05+0.35+0.2+0.1+0.35+0.28+0.1+0.05+0.05+0.05"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Weak, Object(player)",
+                    "Points": 0.2
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "Fail, 13:43 มีโค้ดที่เกี่ยวข้องปรากฏอยู่ก่อน",
+                    "Points": 0.05
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "Fail, 13:43 มีโค้ดที่เกี่ยวข้องปรากฏอยู่ก่อน",
+                    "Points": 0.05
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "Good, ขาดการอธิบายขณะทำ หรือแค่พูดตามสิ่งที่พิมพ์",
+                    "Points": 0.35
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Weak, Object(obtracle)",
+                    "Points": 0.2
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "collision_enter_2d_destroy_obstacle-0.5-points": {
+                    "Rating": "Good, มี Bug ตรงที่หากไปชนวัตถุอื่นๆที่มี collision มันจะถูกทำลายไปด้วย ซึ่งโจทย์กำหนดแค่ obstracle",
+                    "Points": 0.35
+                },
+                "CREATE_ITEM-0.4_points": {
+                    "Rating": "Good, start with item2",
+                    "Points": 0.28
+                },
+                "item_5_object-0.1_points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "on_trigger_enter_2d_destroy_item_0.5-points": {
+                    "Rating": "Fail, no sound",
+                    "Points": 0.05
+                },
+                "on_trigger_enter_2d_change_color_0.5-points": {
+                    "Rating": "Fail, มีโค้ดที่เกี่ยวข้องปรากฏอยู่ก่อน",
+                    "Points": 0.05
+                },
+                "on_trigger_enter_2d_speed_up_0.5-points": {
+                    "Rating": "Fail, no sound มีโค้ดที่เกี่ยวข้องปรากฏอยู่ก่อน",
+                    "Points": 0.05
+                }
+            }
+        },
+        "no.10": {
+            "TotalPoints": 2.272,
+            "Note": [
+                "0.5+0.2+0.05+0.35+0.5+0.16+0.1+0+0.28+0.1+0.05+0.5+0.05 = 2.84",
+                "-20%, a. ความละเอียดอย่างน้อย 1024x768",
+                "2.84 - 20% = 2.272",
+                "เป็นชิ้นงานเพื่อทำส่งรายวิชา ไม่ใช่การ steam เพื่อ show การเล่น game ดังนั้นเลยเลยมีการบรรยายที่ไม่เกี่ยวข้องกับเนื้อหาบ่อยเกินไป ช่วยลดลงด้วยนะครับ จะได้ตรวจง่ายขึ้น"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Weak, Object(player)",
+                    "Points": 0.2
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "Fail, ไม่ตรงตามโจทย์",
+                    "Points": 0.05
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "Good, ในหัวข้อไปพูดเรื่องไม่เกี่ยวข้องเช่น rotate_player",
+                    "Points": 0.35
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Weak, Object(obtracle)",
+                    "Points": 0.16
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "collision_enter_2d_destroy_obstacle-0.5-points": {
+                    "Rating": "n/a",
+                    "Points": 0
+                },
+                "CREATE_ITEM-0.4_points": {
+                    "Rating": "Good, ยืดยาวไปหน่อยกว่าจะเข้าเนื้อหาต้องรอจนถึงตอนจบ",
+                    "Points": 0.28
+                },
+                "item_5_object-0.1_points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "on_trigger_enter_2d_destroy_item_0.5-points": {
+                    "Rating": "Fail, 13:43 มีโค้ดที่เกี่ยวข้องปรากฏอยู่ก่อน",
+                    "Points": 0.05
+                },
+                "on_trigger_enter_2d_change_color_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "on_trigger_enter_2d_speed_up_0.5-points": {
+                    "Rating": "Fail, speed != 10%",
+                    "Points": 0.05
+                }
+            }
+        },
+        "no.24": {
+            "TotalPoints": 4.87,
+            "Note": [
+                "0.5+0.5+0.5+0.5+0.5+0.16+0.1+0.5+0.16+0.1+0.5+0.35+0.5"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Weak, Object(obtracle)",
+                    "Points": 0.16
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "collision_enter_2d_destroy_obstacle-0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_ITEM-0.4_points": {
+                    "Rating": "Weak, Object(item)",
+                    "Points": 0.16
+                },
+                "item_5_object-0.1_points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "on_trigger_enter_2d_destroy_item_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "on_trigger_enter_2d_change_color_0.5-points": {
+                    "Rating": "Good, ขาดการอธิบายขณะทำ หรือแค่พูดตามสิ่งที่พิมพ์",
+                    "Points": 0.35
+                },
+                "on_trigger_enter_2d_speed_up_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                }
+            }
+        },
+        "no.8": {
+            "TotalPoints": 2.17,
+            "Note": [
+                "0.5+0.2+0.05+0.05+0.35+0.16+0+0.35+0.16+0.1+0.05+0.2+0"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Weak, Object(player)",
+                    "Points": 0.2
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "Fail, 03:48 เขียนโค้ดไม่ตรงตามโจทย์กำหนด",
+                    "Points": 0.05
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "Fail, 08:35 เขียนโค้ดไม่ตรงตามโจทย์กำหนด",
+                    "Points": 0.05
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "Good, ขาดการอธิบายขณะทำ หรือแค่พูดตามสิ่งที่พิมพ์",
+                    "Points": 0.35
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Weak, Object(obtracle)",
+                    "Points": 0.16
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "n/a",
+                    "Points": 0
+                },
+                "collision_enter_2d_destroy_obstacle-0.5-points": {
+                    "Rating": "Good, มี Bug ตรงที่หากไปชนวัตถุอื่นๆที่มี collision มันจะถูกทำลายไปด้วย ซึ่งโจทย์กำหนดแค่ obstracle",
+                    "Points": 0.35
+                },
+                "CREATE_ITEM-0.4_points": {
+                    "Rating": "Weak, Object(item)",
+                    "Points": 0.16
+                },
+                "item_5_object-0.1_points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "on_trigger_enter_2d_destroy_item_0.5-points": {
+                    "Rating": "Fail, 45:53 มีโค้ดที่เกี่ยวข้องปรากฏอยู่ก่อน น่าจะเป็นเพราะทำหลังจาก on_trigger_enter_2d_change_color",
+                    "Points": 0.05
+                },
+                "on_trigger_enter_2d_change_color_0.5-points": {
+                    "Rating": "Weak, ขณะทำไม่เห็นถึงความเข้าใจในหลายๆเรื่องถึงใช้เวลานานในหัวข้อนี้ และขาดคำอธิบายขณะเขียนโค้ด",
+                    "Points": 0.2
+                },
+                "on_trigger_enter_2d_speed_up_0.5-points": {
+                    "Rating": "n/a",
+                    "Points": 0
+                }
+            }
+        },
+        "no.3": {
+            "TotalPoints": 2.11,
+            "Note": [
+                "0.5+0.2+0.05+0.05+0.5+0.16+0.1+0.05+0+0.1+0.05+0.35"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Weak, Object(player)",
+                    "Points": 0.2
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "Fail, 6:30 มีโค้ดที่เกี่ยวข้องปรากฏอยู่ก่อน",
+                    "Points": 0.05
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "Fail, 6:49 มีโค้ดที่เกี่ยวข้องปรากฏอยู่ก่อน",
+                    "Points": 0.05
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Weak, Object(obtracle)",
+                    "Points": 0.16
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "collision_enter_2d_destroy_obstacle-0.5-points": {
+                    "Rating": "Fail, มีโค้ดที่เกี่ยวข้องปรากฏอยู่ก่อน",
+                    "Points": 0.05
+                },
+                "CREATE_ITEM-0.4_points": {
+                    "Rating": "n/a",
+                    "Points": 0
+                },
+                "item_5_object-0.1_points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "on_trigger_enter_2d_destroy_item_0.5-points": {
+                    "Rating": "Fail, 13:43 มีโค้ดที่เกี่ยวข้องปรากฏอยู่ก่อน",
+                    "Points": 0.05
+                },
+                "on_trigger_enter_2d_change_color_0.5-points": {
+                    "Rating": "Good, ขาดการอธิบายขณะทำ หรือแค่พูดตามสิ่งที่พิมพ์",
+                    "Points": 0.35
+                }
+            }
+        },
+        "no.5": {
+            "TotalPoints": 0.46,
+            "Note": [
+                "0.2+0+0+0+0.16+0.1"
+            ],
+            "Result": {
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Weak, Object(player)",
+                    "Points": 0.2
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "n/a, 07:40 ไม่มีโค้ด",
+                    "Points": 0
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "n/a, 12:34 ไม่มีโค้ด",
+                    "Points": 0
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "n/a, 15:21 ไม่มีโค้ด",
+                    "Points": 0
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Weak, Object(obtracle)",
+                    "Points": 0.16
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                }
+            }
+        },
+        "63162110544-6": {
+            "TotalPoints": 0.46,
+            "Note": [
+                "Missing Name, ID, or No: -5%",
+                "ไม่ทำตามข้อกำหนด https://docs.google.com/presentation/d/1koYHfbWOgdEWP0TI8AoZaBnWtHOAD2nNVqAjGFNtnAo/edit#slide=id.g188b67b7d83_7_744",
+                "ให้ 0.46 เท่ากับคนที่ได้น้อยที่สุด เนื่องจากเป็นงานแรกของรายวิชา ครั้งต่อไป ถ้าส่งแบบนี้อีกจะได้ 0"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": "n/a",
+                "CREATE_PLAYER_0.5-points": "n/a",
+                "rotate_player_0.5-points": "n/a",
+                "translate_player_0.5-points": "n/a",
+                "follow_player_0.5-points": "n/a",
+                "CREATE_OBSTACLE_0.4-points": "n/a",
+                "obstacle_5_object_0.1-points": "n/a",
+                "collision_enter_2d_destroy_obstacle-0.5-points": "n/a",
+                "CREATE_ITEM-0.4_points": "n/a",
+                "item_5_object-0.1_points": "n/a",
+                "on_trigger_enter_2d_destroy_item_0.5-points": "n/a",
+                "on_trigger_enter_2d_change_color_0.5-points": "n/a",
+                "on_trigger_enter_2d_speed_up_0.5-points": "n/a"
+            }
+        },
+        "64162110468-0": {
+            "TotalPoints": 1.91,
+            "Note": [
+                "Missing Name, ID, or No: -5%",
+                "0.5+0.2+0.2+0.35+0.35+0.16+0.1+0.05"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Weak, Invalid Condition https://docs.google.com/presentation/d/1koYHfbWOgdEWP0TI8AoZaBnWtHOAD2nNVqAjGFNtnAo/edit#slide=id.g188b67b7d83_2_112 , Object(player)",
+                    "Points": 0.2
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "Weak, Invalid Condition https://docs.google.com/presentation/d/1koYHfbWOgdEWP0TI8AoZaBnWtHOAD2nNVqAjGFNtnAo/edit#slide=id.g188b67b7d83_2_112 , ไม่แสดงผลการทำงานภายในหัวข้อ",
+                    "Points": 0.2
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "Good, ขาดการอธิบายขณะทำ",
+                    "Points": 0.35
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "Good, ขาดการอธิบายขณะทำ",
+                    "Points": 0.35
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Weak, Invalid Condition https://docs.google.com/presentation/d/1koYHfbWOgdEWP0TI8AoZaBnWtHOAD2nNVqAjGFNtnAo/edit#slide=id.g188b67b7d83_2_112 , Object(Obstracle)",
+                    "Points": 0.16
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.1
+                },
+                "collision_enter_2d_destroy_obstacle-0.5-points": {
+                    "Rating": "Fail",
+                    "Points": 0.05
+                }
+            }
+        },
+        "no.15": {
+            "TotalPoints": 3.23,
+            "Note": [
+                "0.5+0.2+0.05+0.35+0.5+0.04+0.5+0.5+0.04+0+0.5+0+0.05"
+            ],
+            "Result": {
+                "NEW_2D-PROJECT_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_PLAYER_0.5-points": {
+                    "Rating": "Weak, Invalid Condition https://docs.google.com/presentation/d/1koYHfbWOgdEWP0TI8AoZaBnWtHOAD2nNVqAjGFNtnAo/edit#slide=id.g188b67b7d83_2_112 , Object(player)",
+                    "Points": 0.2
+                },
+                "rotate_player_0.5-points": {
+                    "Rating": "Fail, จากหัวข้อใน discription เริ่มจนถึงจบ ยังไม่มีการทำงานตามที่กำหนด",
+                    "Points": 0.05
+                },
+                "translate_player_0.5-points": {
+                    "Rating": "Good, ในหัวข้อไปพูดเรื่องไม่เกี่ยวข้องเช่น rotate_player",
+                    "Points": 0.35
+                },
+                "follow_player_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_OBSTACLE_0.4-points": {
+                    "Rating": "Fail, ไม่พบการสร้าง Object(Obstracle)",
+                    "Points": 0.04
+                },
+                "obstacle_5_object_0.1-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "collision_enter_2d_destroy_obstacle-0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "CREATE_ITEM-0.4_points": {
+                    "Rating": "Fail, ไม่มีการสร้าง Object(item)",
+                    "Points": 0.04
+                },
+                "item_5_object-0.1_points": {
+                    "Rating": "n/a",
+                    "Points": 0
+                },
+                "on_trigger_enter_2d_destroy_item_0.5-points": {
+                    "Rating": "Perfect",
+                    "Points": 0.5
+                },
+                "on_trigger_enter_2d_change_color_0.5-points": {
+                    "Rating": "n/a",
+                    "Points": 0
+                },
+                "on_trigger_enter_2d_speed_up_0.5-points": {
+                    "Rating": "Fail, จากหัวข้อใน discription เริ่มจนถึงจบ ยังไม่มีการทำงานตามที่กำหนด",
+                    "Points": 0.05
+                }
+            }
+        }
+    }
+}
