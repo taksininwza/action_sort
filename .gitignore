@@ -6,8 +6,9 @@ Packages/
 ProjectSettings/
 Library/
 Temp/
-* Assets/
 Sprites/
+Prefabs/
+TextMesh Pro/
 Scenes/
 UserSettings/
 .vscode/
