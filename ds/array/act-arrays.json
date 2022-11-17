@@ -1,0 +1,620 @@
+{
+    "ref": "https://docs.google.com/presentation/d/13KWzc7KfxSfnQRPyqxafJs704iEXxxVU78Xlw0PvQHM/edit#slide=id.g14abf9cce6c_0_0",
+    "rate": {
+        "Perfect": "x 100%",
+        "Good": "x 70%",
+        "Weak": "x 40%",
+        "Fail": "x 10%",
+        "N/A": "x 0%"
+    },
+    "lecturer's note": [
+        "arrays is a linear data structure that collects elements of the same data type and stores them in contiguous and adjacent memory locations",
+        "arrays work on an index system starting from 0 to (n-1), where n is the size of the array"
+    ],
+    "caption": "act-arrays [link] ชื่อ หมายเลข",
+    "datas": {
+        "no.20": {
+            "total-points": 0,
+            "note": [
+                "-20%, act-arrays [link] ชื่อ หมายเลข"
+            ],
+            "static_arrays": "n/a",
+            "dynamic_arrays": "n/a",
+            "static_arrays_vs_dynamic_arrays": "n/a",
+            "access_O(1)": "n/a",
+            "push_O(1)": "n/a",
+            "pop_O(1)": "n/a",
+            "insert_O(n)": "n/a",
+            "delete_O(n)": "n/a"
+        },
+        "no.25": {
+            "total-points": 0.48,
+            "note": [
+                "-20%, act-arrays [link] ชื่อ หมายเลข",
+                "(0.1+0.4+0.1)-20% = 0.48"
+            ],
+            "static_arrays": {
+                "rate": "Fail (x10%), อ่านตามเนื้อหาบนหน้าจอ ไม่มีภาพประกอบเพื่อเพิ่มความเข้าใจ",
+                "points": 0.1
+            },
+            "dynamic_arrays": {
+                "rate": "Weak (x40%), อ่านตามเนื้อหาบนหน้าจอ, เนื้อหาไม่ครบถ้วน",
+                "points": 0.4
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "Fail (x10%), ตัวแรก vs ตัวที่สอง, เนื้อหาผิด ไม่สามารถเป็นอนันต์ได้เนื่องจาก computer มี memory จำกัด",
+                "points": 0.1
+            },
+            "access_O(1)": "n/a",
+            "push_O(1)": "n/a",
+            "pop_O(1)": "n/a",
+            "insert_O(n)": "n/a",
+            "delete_O(n)": "n/a"
+        },
+        "no.8": {
+            "total-points": 2.8,
+            "note": [
+                "-20%, act-arrays [link] ชื่อ หมายเลข",
+                "(0.7+0.4+0.4+0.4+0.4+0.4+0.4+0.4)-20% = 2.8"
+            ],
+            "static_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ อ่านเพิ่มใน lecturer's note",
+                "points": 0.7
+            },
+            "dynamic_arrays": {
+                "rate": "Weak (x40%), เนื้อหาไม่ครบถ้วน",
+                "points": 0.4
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "Weak (x40%), เนื้อหาไม่ครบถ้วน",
+                "points": 0.4
+            },
+            "access_O(1)": {
+                "rate": "Weak (x40%), ขาดการอธิบาย time complexity, ไม่ได้อธิบายสิ่งที่เขียน(โค้ด)",
+                "points": 0.4
+            },
+            "push_O(1)": {
+                "rate": "Weak (x40%), ขาดการอธิบาย time complexity, ไม่ได้อธิบายสิ่งที่เขียน(โค้ด)",
+                "points": 0.4
+            },
+            "pop_O(1)": {
+                "rate": "Weak (x40%), ขาดการอธิบาย time complexity, ไม่ได้อธิบายสิ่งที่เขียน(โค้ด)",
+                "points": 0.4
+            },
+            "insert_O(n)": {
+                "rate": "Weak (x40%), ขาดการอธิบาย time complexity, ไม่ได้อธิบายสิ่งที่เขียน(โค้ด)",
+                "points": 0.4
+            },
+            "delete_O(n)": {
+                "rate": "Weak (x40%), ขาดการอธิบาย time complexity, ไม่ได้อธิบายสิ่งที่เขียน(โค้ด)",
+                "points": 0.4
+            }
+        },
+        "no.10": {
+            "total-points": 0.64,
+            "note": [
+                "-20%, d. เขียน description ตามที่กำหนด",
+                "(0.7+0.1)-20% = 0.64"
+            ],
+            "static_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ อ่านเพิ่มใน lecturer's note",
+                "points": 0.7
+            },
+            "dynamic_arrays": {
+                "rate": "Fail (x10%), ขาดเนื้อหาที่สำคัญ",
+                "points": 0.1
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "์N/A",
+                "points": 0
+            },
+            "access_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "push_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "pop_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "insert_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "delete_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            }
+        },
+        "no.19": {
+            "total-points": 1.8,
+            "note": [
+                "0.7 +0.7 +0.4 = 1.8"
+            ],
+            "static_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ อ่านเพิ่มใน lecturer's note",
+                "points": 0.7
+            },
+            "dynamic_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ เช่น ตัวแปรจะ reference ไปยังตำแหน่งข้อมูลใหม่",
+                "points": 0.7
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "Weak (x40%), เนื้อหาไม่ครบถ้วน",
+                "points": 0.4
+            },
+            "access_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "push_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "pop_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "insert_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "delete_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            }
+        },
+        "no.6": {
+            "total-points": 4.16,
+            "note": [
+                "-20%, act-arrays [link] ชื่อ หมายเลข",
+                "(0.7 +0.1 +0.4 +0.8 +0.8 +0.8 +0.8 +0.8)-20% = 4.16",
+                "ควรปรับปรุงการเขียนโค้ดให้อ่านง่าย auto format มาช่วย"
+            ],
+            "static_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ อ่านเพิ่มใน lecturer's note",
+                "points": 0.7
+            },
+            "dynamic_arrays": {
+                "rate": "Fail (x10%), ขาดเนื้อหาที่สำคัญ",
+                "points": 0.1
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "Weak (x40%), เนื้อหาไม่ครบถ้วน",
+                "points": 0.4
+            },
+            "access_O(1)": {
+                "rate": "Good (x70%), ไม่ได้อธิบายสิ่งที่เขียน(code)หรือแค่พูดตามสิ่งที่พิมพ์ แต่อธิบาย time complexity",
+                "bonus": "+0.1 อธิบายหลักการทำงานด้วยภาพ ถ้าเอาจุดนี้ไปจับกับโค้ดที่เขียน จะได้ Perfect",
+                "points": 0.8
+            },
+            "push_O(1)": {
+                "rate": "Good (x70%), ไม่ได้อธิบายสิ่งที่เขียน(code)หรือแค่พูดตามสิ่งที่พิมพ์ แต่อธิบาย time complexity",
+                "bonus": "+0.1 อธิบายหลักการทำงานด้วยภาพ ถ้าเอาจุดนี้ไปจับกับโค้ดที่เขียน จะได้ Perfect",
+                "points": 0.8
+            },
+            "pop_O(1)": {
+                "rate": "Good (x70%), ไม่ได้อธิบายสิ่งที่เขียน(code)หรือแค่พูดตามสิ่งที่พิมพ์ แต่อธิบาย time complexity",
+                "bonus": "+0.1 อธิบายหลักการทำงานด้วยภาพ ถ้าเอาจุดนี้ไปจับกับโค้ดที่เขียน จะได้ Perfect",
+                "points": 0.8
+            },
+            "insert_O(n)": {
+                "rate": "Good (x70%), ไม่ได้อธิบายสิ่งที่เขียน(code)หรือแค่พูดตามสิ่งที่พิมพ์ แต่อธิบาย time complexity",
+                "bonus": "+0.1 อธิบายหลักการทำงานด้วยภาพ ถ้าเอาจุดนี้ไปจับกับโค้ดที่เขียน จะได้ Perfect",
+                "points": 0.8
+            },
+            "delete_O(n)": {
+                "rate": "Good (x70%), ไม่ได้อธิบายสิ่งที่เขียน(code)หรือแค่พูดตามสิ่งที่พิมพ์ แต่อธิบาย time complexity",
+                "bonus": "+0.1 อธิบายหลักการทำงานด้วยภาพ ถ้าเอาจุดนี้ไปจับกับโค้ดที่เขียน จะได้ Perfect",
+                "points": 0.8
+            }
+        },
+        "no.2": {
+            "total-points": 1.2,
+            "note": [
+                "0.7 +0.1 +0.4= 1.2"
+            ],
+            "static_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ อ่านเพิ่มใน lecturer's note",
+                "points": 0.7
+            },
+            "dynamic_arrays": {
+                "rate": "Fail (x10%), ขาดเนื้อหาที่สำคัญ",
+                "points": 0.1
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "Weak (x40%), เนื้อหาไม่ครบถ้วน ขาดส่วนสำคัญมากๆ เช่น push จาก O(1) เป็น O(n)",
+                "points": 0.4
+            },
+            "access_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "push_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "pop_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "insert_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "delete_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            }
+        },
+        "no.7": {
+            "total-points": 1.2,
+            "note": [
+                "0.7 +0.1 +0.4= 1.2"
+            ],
+            "static_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ อ่านเพิ่มใน lecturer's note",
+                "points": 0
+            },
+            "dynamic_arrays": {
+                "rate": "Fail (x10%), ขาดเนื้อหาที่สำคัญ",
+                "points": 0.1
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "Weak (x40%), เนื้อหาไม่ครบถ้วน",
+                "points": 0.4
+            },
+            "access_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "push_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "pop_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "insert_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "delete_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            }
+        },
+        "no.3": {
+            "total-points": 1.2,
+            "note": [
+                "0.7 +0.1 +0.4= 1.2"
+            ],
+            "static_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ อ่านเพิ่มใน lecturer's note",
+                "points": 0.7
+            },
+            "dynamic_arrays": {
+                "rate": "Fail (x10%), ขาดเนื้อหาที่สำคัญ",
+                "points": 0.1
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "Weak (x40%), เนื้อหาไม่ครบถ้วน",
+                "points": 0.4
+            },
+            "access_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "push_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "pop_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "insert_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "delete_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            }
+        },
+        "no.14": {
+            "total-points": 0.96,
+            "note": [
+                "-20%, act-arrays https://www.youtube.com/watch?v=0cpD-Tb30Aw ณัฐดนัย 17",
+                "(0.7 +0.1 +0.4)-20% = 0.96"
+            ],
+            "static_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ อ่านเพิ่มใน lecturer's note",
+                "points": 0.7
+            },
+            "dynamic_arrays": {
+                "rate": "Fail (x10%), ขาดเนื้อหาที่สำคัญ",
+                "points": 0.1
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "Weak (x40%), เนื้อหาไม่ครบถ้วน",
+                "points": 0.4
+            },
+            "access_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "push_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "pop_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "insert_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "delete_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            }
+        },
+        "no.24": {
+            "total-points": 0,
+            "note": [
+                "0.7 +0.7 +0.4=1.8"
+            ],
+            "static_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ อ่านเพิ่มใน lecturer's note",
+                "points": 0.7
+            },
+            "dynamic_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ เช่น ตัวแปรจะ reference ไปยังตำแหน่งข้อมูลใหม่",
+                "points": 0.7
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "Weak (x40%), เนื้อหาไม่ครบถ้วน",
+                "points": 0.4
+            },
+            "access_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "push_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "pop_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "insert_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "delete_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            }
+        },
+        "no.16": {
+            "total-points": 1.2,
+            "note": [
+                "0.4+0.1+0.7 = 1.2"
+            ],
+            "static_arrays": {
+                "rate": "Weak (x40%)",
+                "points": 0.4
+            },
+            "dynamic_arrays": {
+                "rate": "Fail (x10%)",
+                "points": 0.1
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ เช่น ตัวแปรจะ reference ไปยังตำแหน่งข้อมูลใหม่",
+                "points": 0.7
+            }
+        },
+        "no.4": {
+            "total-points": 0.4,
+            "note": [
+                "-20%, d. เขียน description ตามที่กำหนด",
+                "(0.1 +0.4)-20% = 0.4"
+            ],
+            "static_arrays": {
+                "rate": "Fail (x10%), ภาพประกอบกับการอธิบาย ไม่ตรงกัน ภาพประกอบวาด 6 บรรยาย 5",
+                "points": 0.1
+            },
+            "dynamic_arrays": {
+                "rate": "Weak (x40%), เนื้อหาไม่ครบถ้วน",
+                "points": 0.4
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "access_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "push_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "pop_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "insert_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "delete_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            }
+        },
+        "no.9": {
+            "total-points": 1.8,
+            "note": [
+                "0.7 +0.7 +0.4= 1.8"
+            ],
+            "static_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ อ่านเพิ่มใน lecturer's note",
+                "points": 0.7
+            },
+            "dynamic_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ เช่น ตัวแปรจะ reference ไปยังตำแหน่งข้อมูลใหม่",
+                "points": 0.7
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "Weak (x40%), เนื้อหาไม่ครบถ้วน",
+                "points": 0.4
+            },
+            "access_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "push_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "pop_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "insert_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "delete_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            }
+        },
+        "no.22": {
+            "total-points": 1.92,
+            "note": [
+                "-20%, act-arrays [link] ชื่อ หมายเลข",
+                "(1 +1 +0.4)-20% = 1.92"
+            ],
+            "static_arrays": {
+                "rate": "Perfect",
+                "points": 1
+            },
+            "dynamic_arrays": {
+                "rate": "Perfect",
+                "points": 1
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "Weak (x40%), เนื้อหาไม่ครบถ้วน ขาดส่วนสำคัญมากๆ เช่น push จาก O(1) เป็น O(n)",
+                "points": 0.4
+            },
+            "access_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "push_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "pop_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "insert_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "delete_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            }
+        },
+        "no.27": {
+            "total-points": 0.8,
+            "note": [
+                "-20%, act-arrays [link] ชื่อ หมายเลข",
+                "-20%, d. เขียน description ตามที่กำหนด",
+                "(0.7 +0.1 +0.4) -(20%+20%) = 0.8"
+            ],
+            "static_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ อ่านเพิ่มใน lecturer's note",
+                "points": 0.7
+            },
+            "dynamic_arrays": {
+                "rate": "Fail (x10%), ขาดเนื้อหาที่สำคัญ",
+                "points": 0.1
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "Weak (x40%), เนื้อหาไม่ครบถ้วน",
+                "points": 0.4
+            },
+            "access_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "push_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "pop_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "insert_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "delete_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            }
+        },
+        "no.1": {
+            "total-points": 1.68,
+            "note": [
+                "-20%, e. ห้ามปรากฏส่วนใดส่วนหนึ่งของ slide นี้",
+                "(0.7 + 1 +0.4) -20% = 1.68"
+            ],
+            "static_arrays": {
+                "rate": "Good (x70%), ขาดเนื้อหาสำคัญ อ่านเพิ่มใน lecturer's note",
+                "points": 0.7
+            },
+            "dynamic_arrays": {
+                "rate": "Perfect",
+                "points": 1
+            },
+            "static_arrays_vs_dynamic_arrays": {
+                "rate": "Weak (x40%), เนื้อหาไม่ครบถ้วน ขาดส่วนสำคัญมากๆ เช่น push จาก O(1) เป็น O(n)",
+                "points": 0.4
+            },
+            "access_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "push_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "pop_O(1)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "insert_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            },
+            "delete_O(n)": {
+                "rate": "N/A",
+                "points": 0
+            }
+        }
+    }
+}
