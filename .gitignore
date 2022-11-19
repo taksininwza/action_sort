@@ -7,10 +7,14 @@ ProjectSettings/
 Library/
 Temp/
 Sprites/
+InputSystem/
+Animations/
 Prefabs/
 Audios/
-TextMesh Pro/
 Scenes/
+Tiles/
+Materials/
+TextMesh Pro/
 UserSettings/
 .vscode/
 *.meta
