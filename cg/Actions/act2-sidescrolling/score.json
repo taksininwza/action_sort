@@ -1,0 +1,284 @@
+{
+    "ref": "https://docs.google.com/presentation/d/1oMhVocnlEYzKSA7kS_m0oS7UuLDYvkITpc0D3whZiKk/edit#slide=id.g18bec2ca653_2_132",
+    "rule": [
+        "Perfect x 1",
+        "Good x 0.7",
+        "Weak x 0.4",
+        "Fail x 0.1",
+        "N/A x 0.0",
+        "Total-Points: 0.5+1+0.5+1+0.5+1+0.5+0.5+0.5+0.5+0.5+1= 8"
+    ],
+    "students": {
+        "No.8": {
+            "points": "0.01",
+            "detail": {
+                "Create_player--0.5p": "N/A",
+                "player_control--1p": "N/A",
+                "Cinemachine--0.5p": "N/A",
+                "Create_ground--1p": "N/A",
+                "surface_effector_2d--0.5p": "N/A",
+                "crash_particle_effect--1p": "N/A",
+                "crash_audio--0.5p": "N/A",
+                "crash_restart--0.5p": "N/A",
+                "Create_finishline--0.5": "N/A",
+                "finish_audio--0.5p": "N/A",
+                "finish_restart--0.5p": "N/A",
+                "PlayGame--1p": "N/A"
+            }
+        },
+        "No.21": {
+            "points": "(0.1+1+0.2+0.4+0.35+0.4+0.35+0.5+0.5+0.2+0.5+1)-(20%+20%) = 5.1 + 0.2 = 5.3",
+            "note": [
+                "-20% ภูวดล 22  -> 21",
+                "https://discord.com/channels/943070632365670410/1038270200430198828/1043027842872655904",
+                "-20%, ไม่เขียน description ตามที่กำหนด -> หมายเหตุ: ต้องเรียงลำดับการทำงานตามหัวข้อ เท่านั้น ",
+                "https://docs.google.com/presentation/d/1oMhVocnlEYzKSA7kS_m0oS7UuLDYvkITpc0D3whZiKk/edit#slide=id.g18bec2ca653_2_198",
+                "bonus 0.2, ชอบที่วาดภาพประกอบเอง"
+            ],
+            "detail": {
+                "Create_player--0.5p": "Fail 0.1, 7:41-8:29 เปลี่ยนไปเรื่อง Cinemachine player แค่ 2D Circle",
+                "player_control--1p": "Perfect 1",
+                "Cinemachine--0.5p": "Weak 0.2, ไม่แสดงการติดตั้ง package",
+                "Create_ground--1p": "Weak 0.4, ไม่มีความสวยงาม (sprite)",
+                "surface_effector_2d--0.5p": "Good 0.35, ไม่เห็นผลการทำงานเพราะทำก่อนมี player",
+                "crash_particle_effect--1p": "Weak 0.4, ไม่เห็นกระบวนการสร้าง particle มีแต่เขียนโค้ด",
+                "crash_audio--0.5p": "Good 0.35, ไม่เห็นกระบวนการสร้าง AudioSource Component โผล่มา มีใช้เลย",
+                "crash_restart--0.5p": "Perfect 0.5",
+                "Create_finishline--0.5": "Perfect 0.5",
+                "finish_audio--0.5p": "Weak 0.2, มีเรื่องที่ไม่เกี่ยวกับหัวข้อเช่น particle",
+                "finish_restart--0.5p": "Perfect 0.5",
+                "PlayGame--1p": "Perfect 1"
+            }
+        },
+        "No.12": {
+            "points": "(0.5+0.7+0.5+0.7+0.5 ) -20% = 2.32 + 0.2 = 2.52",
+            "note": [
+                "-20%, ไม่เขียน description ตามที่กำหนด -> หมายเหตุ: ต้องเรียงลำดับการทำงานตามหัวข้อ เท่านั้น ",
+                "https://docs.google.com/presentation/d/1oMhVocnlEYzKSA7kS_m0oS7UuLDYvkITpc0D3whZiKk/edit#slide=id.g18bec2ca653_2_198",
+                "+0.2, ชอบไอเดีย ปั่นจักรยาน"
+            ],
+            "detail": {
+                "Create_player--0.5p": "Perfect 0.5",
+                "player_control--1p": "Good 0.7, ไม่ run เพื่อแสดงผลการทำงาน",
+                "Cinemachine--0.5p": "Perfect 0.5",
+                "Create_ground--1p": "Good 0.7, เล็กเกินไป",
+                "surface_effector_2d--0.5p": "Perfect 0.5",
+                "crash_particle_effect--1p": "N/A",
+                "crash_audio--0.5p": "N/A",
+                "crash_restart--0.5p": "N/A",
+                "Create_finishline--0.5": "N/A",
+                "finish_audio--0.5p": "N/A",
+                "finish_restart--0.5p": "N/A",
+                "PlayGame--1p": "N/A"
+            }
+        },
+        "No.14": {
+            "points": "0.5+1+0.5+1+0.5+1+0.5+0.5+0.5+0.5+0.5+1= 8",
+            "detail": {
+                "Create_player--0.5p": "Perfect 0.5",
+                "player_control--1p": "Perfect 1",
+                "Cinemachine--0.5p": "Perfect 0.5",
+                "Create_ground--1p": "Perfect 1",
+                "surface_effector_2d--0.5p": "Perfect 0.5",
+                "crash_particle_effect--1p": "Perfect 1",
+                "crash_audio--0.5p": "Perfect 0.5",
+                "crash_restart--0.5p": "Perfect 0.5",
+                "Create_finishline--0.5": "Perfect 0.5",
+                "finish_audio--0.5p": "Perfect 0.5",
+                "finish_restart--0.5p": "Perfect 0.5",
+                "PlayGame--1p": "Perfect 1"
+            }
+        },
+        "No.19": {
+            "points": "(0.5+0.1+0.5+1+0.05+0.1+0+0+0.5+0.05+0+1)-(20%+20%) = 3.4",
+            "note": [
+                "-20% นัทธพงศ์ 20  -> 19",
+                "https://discord.com/channels/943070632365670410/1038270200430198828/1043027842872655904",
+                "-20%, ไม่เขียน description ตามที่กำหนด -> หมายเหตุ: ต้องเรียงลำดับการทำงานตามหัวข้อ เท่านั้น ",
+                "https://docs.google.com/presentation/d/1oMhVocnlEYzKSA7kS_m0oS7UuLDYvkITpc0D3whZiKk/edit#slide=id.g18bec2ca653_2_198",
+                "bonus 0.2, ชอบที่วาดภาพประกอบเอง"
+            ],
+            "detail": {
+                "Create_player--0.5p": "Perfect 0.5",
+                "player_control--1p": "Fail 0.1, 22:57 โผล่มาทำงานได้เลย ไม่เห็นขั้นตอนการเขียนโค้ด",
+                "Cinemachine--0.5p": "Perfect 0.5",
+                "Create_ground--1p": "Perfect 1",
+                "surface_effector_2d--0.5p": "Fail 0.05, 9:12 โผล่มาทำงานได้เลย ไม่เห็นขั้นตอน",
+                "crash_particle_effect--1p": "Fail 0.1, 50:07 โผล่มาทำงานได้เลย ไม่เห็นขั้นตอน",
+                "crash_audio--0.5p": "N/A 0, 50:07 หัวข้อ  crash_particle_effect",
+                "crash_restart--0.5p": "N/A 0, 50:07 หัวข้อ  crash_particle_effect",
+                "Create_finishline--0.5": "Perfect 0.5",
+                "finish_audio--0.5p": "Fail 0.05, 50:07 โผล่มาทำงานได้เลย ไม่เห็นขั้นตอน",
+                "finish_restart--0.5p": "N/A 0, 50:07 หัวข้อ  finish_audio",
+                "PlayGame--1p": "Perfect 1"
+            }
+        },
+        "No.6": {
+            "points": "(0.5+1+0.5+0.7+0.5+0.4+0.2+0.35+0.5+0.5+0.05+0.7 ) = 5.9",
+            "detail": {
+                "Create_player--0.5p": "Perfect 0.5",
+                "player_control--1p": "Perfect 1",
+                "Cinemachine--0.5p": "Perfect 0.5",
+                "Create_ground--1p": "Good 0.7, ไม่รวม object ต่างๆ ไว้ภายใน parent object ทำให้ใน hierarchy ดูรกมาก และแยกไม่ออกว่า object ไหนเป็นอะไร",
+                "surface_effector_2d--0.5p": "Perfect 0.5",
+                "crash_particle_effect--1p": "Weak 0.4, ทำเรื่อง particle แต่ไม่ตรงกับที่โจทย์กำหนด",
+                "crash_audio--0.5p": "Weak 0.2, เหมือนยังไม่เข้าใจการทำงานรวมๆ เพราะใช้เวลานานมากกว่าจะแก้ไขมาให้ถูกต้อง",
+                "crash_restart--0.5p": "Good 0.35, 43:23 เสียงเบาจนฟังไม่ออกว่าพูดอะไร",
+                "Create_finishline--0.5": "Perfect 0.5",
+                "finish_audio--0.5p": "Perfect 0.5",
+                "finish_restart--0.5p": "Fail 0.05",
+                "PlayGame--1p": "Good 0.7, เกมไม่สมบูรณ์ตามที่กำหนด"
+            }
+        },
+        "No.24": {
+            "points": "(0.35+0.7+0.35+0.7+0.5+1+0.35+0.5+0.5+0.5+0.5+1 )-20% = 5.56",
+            "note": [
+                "-20% ไม่แสดงเวลาของเครื่อง computer ที่มุม ขวาล่าง (เวลาบน taskbar)",
+                "https://docs.google.com/presentation/d/1oMhVocnlEYzKSA7kS_m0oS7UuLDYvkITpc0D3whZiKk/edit#slide=id.g18bec2ca653_2_132"
+            ],
+            "detail": {
+                "Create_player--0.5p": "Good 0.35, โจทย์กำหนดให้มี rigidbody ในขั้นตอนนี้",
+                "player_control--1p": "Good 0.7, ไม่แสดงผลทำงานเพราะ วาง player(z=-0.001) ซึ่งอยู่ด้านหลัง camera(z=0)",
+                "Cinemachine--0.5p": "Good 0.35, ไม่แสดงการติดตั้ง package",
+                "Create_ground--1p": "Good 0.7, เล็กเกินไป",
+                "surface_effector_2d--0.5p": "Perfect 0.5",
+                "crash_particle_effect--1p": "Perfect 1",
+                "crash_audio--0.5p": "Good 0.35, ใช้เวลานานมากกว่าจะพบว่าโค้ดผิด ซึ่งเป็นจุดที่ไม่ควรพลาด",
+                "crash_restart--0.5p": "Perfect 0.5",
+                "Create_finishline--0.5": "Perfect 0.5",
+                "finish_audio--0.5p": "Perfect 0.5",
+                "finish_restart--0.5p": "Perfect 0.5",
+                "PlayGame--1p": "Perfect 1"
+            }
+        },
+        "No.15": {
+            "points": "(0.5+1+0.35+0.7+0.5+0.1+0.5+0.5+0.5+0.35+0.05+0.7 ) = 5.75",
+            "detail": {
+                "Create_player--0.5p": "Perfect 0.5",
+                "player_control--1p": "Perfect 1",
+                "Cinemachine--0.5p": "Good 0.35, ไม่แสดงการทำงานด้วยการกด ▶",
+                "Create_ground--1p": "Good 0.7, เล็กเกินไป",
+                "surface_effector_2d--0.5p": "Perfect 0.5",
+                "crash_particle_effect--1p": "Fail 0.1, วิเคราะห์ปัญหาไม่ได้",
+                "crash_audio--0.5p": "Perfect 0.5",
+                "crash_restart--0.5p": "Perfect 0.5",
+                "Create_finishline--0.5": "Perfect 0.5",
+                "finish_audio--0.5p": "Good 0.35, มีโค้ดที่ไม่เกี่ยวข้องกับเนื้อหา",
+                "finish_restart--0.5p": "Fail 0.05, มีโค้ดไว้เรียบร้อยแล้ว",
+                "PlayGame--1p": "Good 0.7, พื้นที่สนามสั้นไป และ ไม่สวยงาม"
+            }
+        },
+        "No.11": {
+            "points": "(0.35+0.4+0.2+0.4+0.05+0.1+0.05+0.2+0.2+0.05+0.05+1 ) = 3.05",
+            "detail": {
+                "Create_player--0.5p": "Good 0.35, โจทย์กำหนดให้มี Collider ในขั้นตอนนี้",
+                "player_control--1p": "Weak 0.4, ก้มหน้าก้มตามพิมพ์ ไม่มีการอธิบายเลย",
+                "Cinemachine--0.5p": "Weak 0.2, ไม่มีการอธิบาย",
+                "Create_ground--1p": "Weak 0.4, ไม่มีการอธิบาย",
+                "surface_effector_2d--0.5p": "Fail 0.05, 15:25 ไม่มีการอธิบาย, ไม่เห็นขั้นตอนการเพิ่ม surface effector component",
+                "crash_particle_effect--1p": "Fail 0.1, วิเคราะห์ปัญหาไม่ได้ ทั้งๆที่ error ขึ้นบอกข้อผิดพลาด แสดงว่าไม่มีความเข้าใจ แค่พิมพ์โค้ดตามเท่านั้น",
+                "crash_audio--0.5p": "Fail 0.05, ไม่ได้ยนเสียง crash audio, ไม่มีอธิบาย",
+                "crash_restart--0.5p": "Weak 0.2, ไม่มีการอธิบาย",
+                "Create_finishline--0.5": "Weak 0.2, ไม่มีการอธิบาย",
+                "finish_audio--0.5p": "Fail 0.05, 43:39 เปลี่ยนไปทำอย่างอื่น ไม่เกี่ยวข้องกับ audio",
+                "finish_restart--0.5p": "Fail 0.05, ไม่มีการอธิบาย, ใช้เวลาแก้ไขในส่วนที่ไม่เกี่ยวข้องกับ error มากเกินไป แสดงถึงความไม่เข้าใจ",
+                "PlayGame--1p": "Perfect 1"
+            }
+        },
+        "No.3": {
+            "points": "(0.35+0.7+0.35+0.7+0.35+0.1 )-(20%+20%) = 2.15",
+            "note": [
+                "-20%, ไม่เขียน description ตามที่กำหนด -> หมายเหตุ: ต้องเรียงลำดับการทำงานตามหัวข้อ เท่านั้น ",
+                "https://docs.google.com/presentation/d/1oMhVocnlEYzKSA7kS_m0oS7UuLDYvkITpc0D3whZiKk/edit#slide=id.g18bec2ca653_2_198",
+                "-20% ปรากฏส่วนใดส่วนหนึ่งของ slide นี้",
+                "https://docs.google.com/presentation/d/1oMhVocnlEYzKSA7kS_m0oS7UuLDYvkITpc0D3whZiKk/edit#slide=id.g18bec2ca653_2_132"
+            ],
+            "detail": {
+                "Create_player--0.5p": "Good 0.35, โจทย์กำหนดให้มี rigidbody ในขั้นตอนนี้",
+                "player_control--1p": "Good 0.7, ไม่ ▶ เพื่อแสดงผลการทำงาน, ตั้งชื่อตัวแปร ไท่สอดคล้องกับที่ทำไปใช้งาน",
+                "Cinemachine--0.5p": "Good 0.35, ไม่ ▶ เพื่อแสดงผลการทำงาน",
+                "Create_ground--1p": "Good 0.7, เล็กเกินไป, collider ไม่ได้ตรวจสอบว่าเป็นรูปรางเดียวกับ sprite closed shape หรือไม่",
+                "surface_effector_2d--0.5p": "Good 0.35, ไม่ ▶ เพื่อแสดงผลการทำงาน",
+                "crash_particle_effect--1p": "Fail 0.1",
+                "crash_audio--0.5p": "N/A",
+                "crash_restart--0.5p": "N/A",
+                "Create_finishline--0.5": "N/A",
+                "finish_audio--0.5p": "N/A",
+                "finish_restart--0.5p": "N/A",
+                "PlayGame--1p": "N/A"
+            }
+        },
+        "No.7": {
+            "points": "(0.5+0.7+0.35+0.1+0.5+0.7+0.5+0.5+0.5+0.35+0.2+0.7 ) -20% = 4.48",
+            "note": [
+                "-20%, ไม่เขียน description ตามที่กำหนด -> หมายเหตุ: ต้องเรียงลำดับการทำงานตามหัวข้อ เท่านั้น ",
+                "https://docs.google.com/presentation/d/1oMhVocnlEYzKSA7kS_m0oS7UuLDYvkITpc0D3whZiKk/edit#slide=id.g18bec2ca653_2_198"
+            ],
+            "detail": {
+                "Create_player--0.5p": "Perfect 0.5",
+                "player_control--1p": "Good 0.7, การอธิบาย ยังเป็นแบบพูดตามสิ่งที่พิมพ์ ไม่ได้บอกว่า ทำไปทำไม",
+                "Cinemachine--0.5p": "Good 0.35, ตัว body ของ vcam เป็น Transposer เลยไม่เห็นผลเมื่อปรับ ScreenX,ScreenY",
+                "Create_ground--1p": "Fail 0.1, 15:57 มี Object อยู่แล้ว ไม่ได้เริ่มทำตั้งแต่แรก",
+                "surface_effector_2d--0.5p": "Perfect 0.5",
+                "crash_particle_effect--1p": "Good 0.7, ไม่สรุปปัญหาว่าเกิดจากอะไร",
+                "crash_audio--0.5p": "Perfect 0.5",
+                "crash_restart--0.5p": "Perfect 0.5",
+                "Create_finishline--0.5": "Perfect 0.5",
+                "finish_audio--0.5p": "Good 0.35, ไม่สรุปปัญหาว่าเกิดจากอะไร",
+                "finish_restart--0.5p": "Weak 0.2, copy code มาใช้แล้วพบปัญหาและใช้เวลาแก้ไขนานมาก สรุปได้ว่ายังไม่มีความเข้าใจที่มากพอ",
+                "PlayGame--1p": "Good 0.7, พื้นที่สนามสั้นไป"
+            }
+        },
+        "No.9": {
+            "points": "( ) = 0.5+1+0.5+1+0.5+1+0.5+0.5+0.5+0.5+0.5+1= 8",
+            "detail": {
+                "Create_player--0.5p": "Perfect 0.5",
+                "player_control--1p": "Perfect 1",
+                "Cinemachine--0.5p": "Perfect 0.5",
+                "Create_ground--1p": "Perfect 1",
+                "surface_effector_2d--0.5p": "Perfect 0.5",
+                "crash_particle_effect--1p": "Perfect 1",
+                "crash_audio--0.5p": "Perfect 0.5",
+                "crash_restart--0.5p": "Perfect 0.5",
+                "Create_finishline--0.5": "Perfect 0.5",
+                "finish_audio--0.5p": "Perfect 0.5",
+                "finish_restart--0.5p": "Perfect 0.5",
+                "PlayGame--1p": "Perfect 1"
+            }
+        },
+        "No.16": {
+            "points": "0.5+1+0.5+1+0.5+1+0.5+0.5+0.5+0.5+0.5+1= 8",
+            "detail": {
+                "Create_player--0.5p": "Perfect 0.5",
+                "player_control--1p": "Perfect 1",
+                "Cinemachine--0.5p": "Perfect 0.5",
+                "Create_ground--1p": "Perfect 1",
+                "surface_effector_2d--0.5p": "Perfect 0.5",
+                "crash_particle_effect--1p": "Perfect 1",
+                "crash_audio--0.5p": "Perfect 0.5",
+                "crash_restart--0.5p": "Perfect 0.5",
+                "Create_finishline--0.5": "Perfect 0.5",
+                "finish_audio--0.5p": "Perfect 0.5",
+                "finish_restart--0.5p": "Perfect 0.5",
+                "PlayGame--1p": "Perfect 1"
+            }
+        },
+        "No.": {
+            "points": "( ) = ",
+            "detail": {
+                "Create_player--0.5p": "",
+                "player_control--1p": "",
+                "Cinemachine--0.5p": "",
+                "Create_ground--1p": "",
+                "surface_effector_2d--0.5p": "",
+                "crash_particle_effect--1p": "",
+                "crash_audio--0.5p": "",
+                "crash_restart--0.5p": "",
+                "Create_finishline--0.5": "",
+                "finish_audio--0.5p": "",
+                "finish_restart--0.5p": "",
+                "PlayGame--1p": ""
+            }
+        }
+    }
+}
