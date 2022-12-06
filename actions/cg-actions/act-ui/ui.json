@@ -1,0 +1,258 @@
+{
+    "ref": "https://docs.google.com/presentation/d/1efaE4kCSGKBXcmPcpIGOFnObKYTaQcT5-woNwict2nU/edit#slide=id.g18d9c2a0e0c_0_354",
+    "define": [
+        "Perfect: x1.0",
+        "Good: x0.8",
+        "Weak: x0.5",
+        "Fail: x0.2",
+        "n/a: x0.0",
+        "+: +0.09",
+        "-: -0.09",
+        "total: 9 points"
+    ],
+    "bonus-points": [
+        "ส่งงาน 50% ของ นักศึกที่ลงทะเบียนเรียน",
+        "คะแนนพิเศษ 20% ของ YT view(86 view updated 6 dec 22) เนื่องจากยอดวิวแสดงให้เห็นถึงจำนวนการเข้ามาศึกษาย้อนหลัง",
+        "86*0.2 = 17.2",
+        "คะแนนต่อ 1 คน = 17.2/14 = 1.22 points"
+    ],
+    "students": {
+        "act-ui https://youtu.be/uFHIwEv6s38 เทพรักษ์ 8": {
+            "points": "0.49 +0.49 +0.5 +0.91 +0 +0.2 = 2.59",
+            "action": {
+                "1.bg_background--0.5": "Perfect- 0.49, bg มันแหว่งๆ ไม่เต็ม canvas ทำให้รู้สึกแปลกๆ",
+                "2.bg_title--0.5": "Perfect- 0.49, น่าจะใช้ font ที่ไม่ใช่ default font",
+                "3.quiz_layout--1": "Weak 0.5, ไม่ครบถ้วน คำสั่ง: จัดรูปแบบการแสดงผลข้อมูล คำถาม, ปุ่มตอบ, คะแนน, แถบคืบหน้า, เวลา",
+                "4.quiz_scriptable_object--1": "Perfect- 0.91, ข้อคำถามไม่ครบ 10 ข้อ ชื่อไม่ตรงตามที่กำหนด",
+                "5.quiz_script--1": "n/a 0, 09:03 เนื้อหาเป็น quiz_scriptable_object",
+                "6.timer_script--1": "Fail 0.2 มีเนื้อหาที่ไม่เกี่ยวข้องเยอะมาก",
+                "7.gameover_script--1": "",
+                "8.scorekeeper_script--1": "",
+                "9.gamemanager_script--1": "",
+                "10.play_the_game--1": ""
+            }
+        },
+        "act-ui https://youtu.be/jJnqbygXhqk นิธิ 16": {
+            "points": "(0.5+0.5 +1 +0.91 +0.8 +1 +1 +0.5 +0.5 +0.5) -20% = 5.768",
+            "action": {
+                "1.bg_background--0.5": "Perfect 0.5",
+                "2.bg_title--0.5": "Perfect 0.5",
+                "3.quiz_layout--1": "Perfect 1",
+                "4.quiz_scriptable_object--1": "Perfect- 0.91, ข้อคำถามที่ทำ ดูใบหน้าของเราบังหมดเลย เลยไม่รู้ว่าเป็นข้อคำถามที่มั่วๆหรือไม่",
+                "5.quiz_script--1": "Good 0.8, ไม่เห็นผลการรัน, คำสั่ง: เพื่อการคำนวณและแสดงผลหลังจากกดปุ่มหรือหมดเวลาตอบคำถาม ",
+                "6.timer_script--1": "Perfect 1",
+                "7.gameover_script--1": "Perfect 1",
+                "8.scorekeeper_script--1": "Weak 0.5 ผมไม่ได้ยินอะไรนอกจาก พรึ๊บๆๆๆๆ และดูสับสนว่าจะต้องทำอะไรก่อนหลัง",
+                "9.gamemanager_script--1": "Weak 0.5 คำสั่ง: ใช้ควบคุมการแสดง Canvas แต่ไม่พบว่า เมื่อจบเกมมีการสลับ GameOver ขึ้นมาแสดงผล",
+                "10.play_the_game--1": "Weak 0.5, ไม่มีการแสดงผลคะแนน"
+            },
+            "Note": [
+                "-20% ความยาวคลิป 2:30:00 เกินกว่าที่กำหนดไว้ 1:30:59",
+                "เสียงลด พรึ๊บๆๆๆๆ ดังกว่าเสียงพูดเยอะเลยครับ"
+            ]
+        },
+        "act-ui https://youtu.be/4zPclrqCdfA สิรีธร 24": {
+            "points": "0.01",
+            "action": {
+                "1.bg_background--0.5": "n/a",
+                "2.bg_title--0.5": "n/a",
+                "3.quiz_layout--1": "n/a",
+                "4.quiz_scriptable_object--1": "n/a",
+                "5.quiz_script--1": "n/a",
+                "6.timer_script--1": "n/a",
+                "7.gameover_script--1": "n/a",
+                "8.scorekeeper_script--1": "n/a",
+                "9.gamemanager_script--1": "n/a",
+                "10.play_the_game--1": "n/a"
+            }
+        },
+        "act-ui https://youtu.be/_KQEKjSUQ2k วริทธิ์นันท์ 6": {
+            "points": "0.5 +0.5 +0.5 +0.71 +0.2 = 2.41",
+            "action": {
+                "1.bg_background--0.5": "Perfect 0.5",
+                "2.bg_title--0.5": "Perfect 0.5",
+                "3.quiz_layout--1": "Weak 0.5, ไม่ครบถ้วน คำสั่ง: จัดรูปแบบการแสดงผลข้อมูล คำถาม, ปุ่มตอบ, คะแนน, แถบคืบหน้า, เวลา",
+                "4.quiz_scriptable_object--1": "Good- 0.71, ผิดตั้งแต่ ไป extend MonoBehavior และใช้เวลานานกว่าจะรู้ตัว แสดงให้เห็นว่ายัง งงๆ กับหัวข้อนี้",
+                "5.quiz_script--1": "Fail 0.2",
+                "6.timer_script--1": "n/a",
+                "7.gameover_script--1": "n/a",
+                "8.scorekeeper_script--1": "n/a",
+                "9.gamemanager_script--1": "n/a",
+                "10.play_the_game--1": "n/a"
+            }
+        },
+        "act-ui https://youtu.be/FJ3XdjhDp1o เพ็ญนภา 15": {
+            "points": "((0.5 +0.5 +1 +1 +0.8 +1 +0 +0.8 +1 +0.5) -20%)-20% = 4.544",
+            "action": {
+                "1.bg_background--0.5": "Perfect 0.5",
+                "2.bg_title--0.5": "Perfect 0.5",
+                "3.quiz_layout--1": "Perfect 1",
+                "4.quiz_scriptable_object--1": "Perfect 1",
+                "5.quiz_script--1": "Good 0.8, ไม่เห็นผลการรัน ",
+                "6.timer_script--1": "Perfect 1",
+                "7.gameover_script--1": "n/a ,ปัดป้ายกำกับเวลาผิด ทำให้ไปตรวจในช่วงเวลา 51:50 ซึ่งไม่ใช่หัวข้อนี้",
+                "8.scorekeeper_script--1": "Good 0.8, ไม่เห็นผลการรันที่แสดงคะแนน",
+                "9.gamemanager_script--1": "Perfect 1",
+                "10.play_the_game--1": "Weak 0.5, ผิดคำสั่ง slide p.92: แสดงเป็นคะแนนในรูปแบบ   คะแนนที่ได้/คะแนนเต็ม เช่น 3/10"
+            },
+            "Note": [
+                "-20% ความยาวคลิป 2:14:05 เกินกว่าที่กำหนดไว้ 1:30:59",
+                "-20% ไม่ทำตามข้อกำหนด slide 92,สร้างโปรเจคใหม่(actQuiz)เพื่อทำเกมตอบคำถามด้วย canvas"
+            ]
+        },
+        "act-ui https://youtu.be/Z-aZrQhU9qw ธีรยุทธ 7": {
+            "points": "0.5+0.49+0.5+0.91+0.5+0.2 = 3.1",
+            "action": {
+                "1.bg_background--0.5": "Perfect 0.5",
+                "2.bg_title--0.5": "Perfect- 0.49, น่าจะใช้ font ที่ไม่ใช่ default font",
+                "3.quiz_layout--1": "Weak 0.5, ไม่ครบถ้วน คำสั่ง: จัดรูปแบบการแสดงผลข้อมูล คำถาม, ปุ่มตอบ, คะแนน, แถบคืบหน้า, เวลา",
+                "4.quiz_scriptable_object--1": "Perfect- 0.91, ข้อคำถามที่ทำ ดูใบหน้าของเราบังหมดเลย เลยไม่รู้ว่าเป็นข้อคำถามที่มั่วๆหรือไม่",
+                "5.quiz_script--1": "Weak 0.5, 27:32 เริ่มทำงาน fix 1:16:24 แต่ไม่เห็นผลการรัน",
+                "6.timer_script--1": "Fail 0.2",
+                "7.gameover_script--1": "n/a",
+                "8.scorekeeper_script--1": "n/a",
+                "9.gamemanager_script--1": "n/a",
+                "10.play_the_game--1": "n/a"
+            }
+        },
+        "act-ui https://youtu.be/AaDrG9xOjLA ภูรินทรรัชน์ 11": {
+            "points": "(0.5 +0.49 +0.5 +0.89 +0.41 +0.2)-20% = 2.392",
+            "action": {
+                "1.bg_background--0.5": "Perfect 0.5",
+                "2.bg_title--0.5": "Perfect- 0.49, น่าจะใช้ font ที่ไม่ใช่ default font",
+                "3.quiz_layout--1": "Weak 0.5, ไม่ครบถ้วน คำสั่ง: จัดรูปแบบการแสดงผลข้อมูล คำถาม, ปุ่มตอบ, คะแนน, แถบคืบหน้า, เวลา",
+                "4.quiz_scriptable_object--1": "Good+ 0.89, ใช้เวลาแก้ error จาก String เป็น string นานไปหน่อย ทั้งๆที่ Error เขียนไว้ชัดเจนมาก ซึ่งแสดงถึงความไม่เข้าใจ",
+                "5.quiz_script--1": "Weak- 0.41, ผมตรวจข้ามๆ เพราะใช้เวลานานมากจาก 20:48 ถึง 1:07 เกือบๆ 40 นาที และพูดงึมงัมๆ แถมในบางช่วงเวลา ยังทำเรื่องที่ไม่เกี่ยวกับหัวข้ออีกด้วย และตอนจบยังมี error อีก ซึ่งทำให้ผม ลังเลมากระหว่างให้คะแนน Weak หรือ Fail ดี",
+                "6.timer_script--1": "Fail 0.2",
+                "7.gameover_script--1": "n/a",
+                "8.scorekeeper_script--1": "n/a",
+                "9.gamemanager_script--1": "n/a",
+                "10.play_the_game--1": "n/a"
+            },
+            "Note": [
+                "-20% ความยาวคลิป 1:45:41 เกินกว่าที่กำหนดไว้ 1:30:59"
+            ]
+        },
+        "act-ui https://youtu.be/5ScOJ4PivQk นพัสสร 9": {
+            "points": "(0.5+0.5+1+1+0.91+0.89+1+0.89+1+0.5)-20% = 6.552",
+            "action": {
+                "1.bg_background--0.5": "Perfect 0.5",
+                "2.bg_title--0.5": "Perfect 0.5",
+                "3.quiz_layout--1": "Perfect- 1",
+                "4.quiz_scriptable_object--1": "Perfect 1",
+                "5.quiz_script--1": "Perfect- 0.91, ไม่ครบถ้วน คำสั่ง: เพื่อการคำนวณและแสดงผลหลังจากกดปุ่มหรือหมดเวลาตอบคำถาม",
+                "6.timer_script--1": "Good+ 0.89, มีการทำส่วนที่ไม่เกี่ยวข้องเช่น กลับไปแก้ไข quiz_script เพื่อรองรับข้อคำถามเป็น list",
+                "7.gameover_script--1": "Perfect 1",
+                "8.scorekeeper_script--1": "Good+ 0.89, มีการทำส่วนที่ไม่เกี่ยวข้องเช่น กลับไปแก้ไข quiz_script เพื่อปรับค่า slider",
+                "9.gamemanager_script--1": "Perfect 1",
+                "10.play_the_game--1": "Weak 0.5, ผิดคำสั่ง slide p.92: แสดงเป็นคะแนนในรูปแบบ   คะแนนที่ได้/คะแนนเต็ม เช่น 3/10"
+            },
+            "Note": [
+                "-20% ความยาวคลิป 1:55:26 เกินกว่าที่กำหนดไว้ 1:30:59"
+            ]
+        },
+        "act-ui https://youtu.be/Aqo0k_vfteE สรวิชญ์ 12": {
+            "points": "(0.5 +0.5 +0.5 +0.71 +0.2) -20% = 1.928",
+            "action": {
+                "1.bg_background--0.5": "Perfect 0.5",
+                "2.bg_title--0.5": "Perfect 0.5",
+                "3.quiz_layout--1": "Weak 0.5, ไม่ครบถ้วน คำสั่ง: จัดรูปแบบการแสดงผลข้อมูล คำถาม, ปุ่มตอบ, คะแนน, แถบคืบหน้า, เวลา",
+                "4.quiz_scriptable_object--1": "Good- 0.71, ลบไฟล์ทำใหม่ 2 ครั้ง ทั้งๆที่ error แจ้งชัดเจนแสดงถึงความไม่เข้าใจ",
+                "5.quiz_script--1": "Fail 0.2",
+                "6.timer_script--1": "n/a",
+                "7.gameover_script--1": "n/a",
+                "8.scorekeeper_script--1": "n/a",
+                "9.gamemanager_script--1": "n/a",
+                "10.play_the_game--1": "n/a"
+            },
+            "note": [
+                "-20% ไม่ทำตามข้อกำหนด slide 92,สร้างโปรเจคใหม่(actQuiz)เพื่อทำเกมตอบคำถามด้วย canvas"
+            ]
+        },
+        "act-ui https://youtu.be/ZWncGaVUN5E นัทธพงศ์ 19": {
+            "points": "0.5 +0.5 +0.59 +0.89 +0.8 +0.41 = 3.69",
+            "action": {
+                "1.bg_background--0.5": "Perfect 0.5",
+                "2.bg_title--0.5": "Perfect 0.5",
+                "3.quiz_layout--1": "Weak+ 0.59, ไม่ครบถ้วน คำสั่ง: จัดรูปแบบการแสดงผลข้อมูล คำถาม, ปุ่มตอบ, คะแนน, แถบคืบหน้า, เวลา",
+                "4.quiz_scriptable_object--1": "Good+ 0.89, น่าจะเป็นเพราะปัญหาของไมค์ จึงทำให้ไม่มีการอธิบายโค้ดที่พิมพ์ว่าทำไปทำไม",
+                "5.quiz_script--1": "Good 0.8, ส่วนใหญ่ ขาดคำอธิบายขณะเขียนโค้ดว่าทำแต่ละอย่างไปทำไม และ มีส่วนที่ไม่เกี่ยวข้องกับหัวข้อ เช่น การย้อนไปทำข้อคำถาม ซึ่งควรจะเสร็จจากข้อที่ผ่านมาไปแล้ว",
+                "6.timer_script--1": "Weak- 0.41",
+                "7.gameover_script--1": "n/a",
+                "8.scorekeeper_script--1": "n/a",
+                "9.gamemanager_script--1": "n/a",
+                "10.play_the_game--1": "n/a"
+            },
+            "note": [
+                "เสียงเบามาก ครั้งหน้าปรับด้วยนะครับ"
+            ]
+        },
+        "act-ui https://youtu.be/HtD1UdTml6g ทับทิม 2": {
+            "points": "0.5+0.5+0.5 = 1.5",
+            "action": {
+                "1.bg_background--0.5": "Perfect 0.5",
+                "2.bg_title--0.5": "Perfect 0.5",
+                "3.quiz_layout--1": "Weak 0.5, ไม่ครบถ้วน คำสั่ง: จัดรูปแบบการแสดงผลข้อมูล คำถาม, ปุ่มตอบ, คะแนน, แถบคืบหน้า, เวลา",
+                "4.quiz_scriptable_object--1": "n/a",
+                "5.quiz_script--1": "n/a",
+                "6.timer_script--1": "n/a",
+                "7.gameover_script--1": "n/a",
+                "8.scorekeeper_script--1": "n/a",
+                "9.gamemanager_script--1": "n/a",
+                "10.play_the_game--1": "n/a"
+            }
+        },
+        "act-ui https://youtu.be/s679Lw6v4A4 ปราชญ์พสิษฐ์ 3": {
+            "points": "0.5 +0.5 +0.71 +0.71 +0.8 +0.2 = 3.42",
+            "action": {
+                "1.bg_background--0.5": "Perfect 0.5",
+                "2.bg_title--0.5": "Perfect 0.5",
+                "3.quiz_layout--1": "Good- 0.71, ไม่ครบถ้วน คำสั่ง: จัดรูปแบบการแสดงผลข้อมูล คำถาม, ปุ่มตอบ, คะแนน, แถบคืบหน้า, เวลา",
+                "4.quiz_scriptable_object--1": "Good- 0.71, ไม่มี getter ของ correctAnswerInput, Answer ส่งผลให้ class อื่นๆ จะเข้าถึงข้อมูลตัวนี้ไม่ได้",
+                "5.quiz_script--1": "Good 0.8, ส่วนใหญ่ ขาดคำอธิบายขณะเขียนโค้ดว่าทำแต่ละอย่างไปทำไม",
+                "6.timer_script--1": "Fail 0.2",
+                "7.gameover_script--1": "n/a",
+                "8.scorekeeper_script--1": "n/a",
+                "9.gamemanager_script--1": "n/a",
+                "10.play_the_game--1": "n/a"
+            }
+        },
+        "act-ui https://youtu.be/X9NdFUVkI0U ภูวดล  21": {
+            "points": "(0.49 +0.5 +0.8 +1 +0.91) -20% = 2.96",
+            "action": {
+                "1.bg_background--0.5": "Perfect- 0.49, ใช้สีล้วนๆเป็นพื้นหลัง แถมยังใช้สีสดๆทำให้ปวดตาขณะจ้องมอง",
+                "2.bg_title--0.5": "Perfect 0.5",
+                "3.quiz_layout--1": "Good 0.8, ไม่ครบถ้วน คำสั่ง: จัดรูปแบบการแสดงผลข้อมูล คำถาม, ปุ่มตอบ, คะแนน, แถบคืบหน้า, เวลา",
+                "4.quiz_scriptable_object--1": "Perfect 1",
+                "5.quiz_script--1": "Perfect- 0.91",
+                "6.timer_script--1": "n/a",
+                "7.gameover_script--1": "n/a",
+                "8.scorekeeper_script--1": "n/a",
+                "9.gamemanager_script--1": "n/a",
+                "10.play_the_game--1": "n/a"
+            },
+            "note": [
+                "-20% ไม่ทำตามข้อกำหนด slide 92,สร้างโปรเจคใหม่(actQuiz)เพื่อทำเกมตอบคำถามด้วย canvas"
+            ]
+        },
+        "act-ui https://youtu.be/juNiaKnDEag ณัฐวุฒิ 14": {
+            "points": "(0.5 +0.5 +0.91 +0.89)-20% = 2.24",
+            "action": {
+                "1.bg_background--0.5": "Perfect 0.5",
+                "2.bg_title--0.5": "Perfect 0.5",
+                "3.quiz_layout--1": "Perfect- 0.91, หักคะแนนส่วน slider",
+                "4.quiz_scriptable_object--1": "Good+ 0.89, น่าจะเป็นเพราะปัญหาของไมค์ จึงทำให้ไม่มีการอธิบายโค้ดที่พิมพ์ว่าทำไปทำไม",
+                "5.quiz_script--1": "n/a",
+                "6.timer_script--1": "n/a",
+                "7.gameover_script--1": "n/a",
+                "8.scorekeeper_script--1": "n/a",
+                "9.gamemanager_script--1": "n/a",
+                "10.play_the_game--1": "n/a"
+            },
+            "note": [
+                "edited: 6-dec-22 1:03am",
+                "-20% ไม่ทำตามข้อกำหนด slide 92,สร้างโปรเจคใหม่(actQuiz)เพื่อทำเกมตอบคำถามด้วย canvas"
+            ]
+        }
+    }
+}
