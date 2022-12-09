@@ -11,3 +11,5 @@ data structure and algorithms
 - [Hash Tables](https://docs.google.com/presentation/d/1qy-7MxfeNr-MFOZD82LbavxOR4sx9VlYQ4Kglwybpes/edit?usp=sharing)
 
 - [Linked Lists](https://docs.google.com/presentation/d/1hJWrIB1YU0qlPFtMl7dw8Xv7dfYLSflC26TGVGL-YDs/edit?usp=sharing)
+
+- [Stacks & Queues](https://docs.google.com/presentation/d/1xlhK-ebbDeeYkduTTxffunq5X1dvee70e7GLVrPbZbk/edit?usp=sharing)
