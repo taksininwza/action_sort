@@ -17,6 +17,18 @@
         "คะแนนพิเศษต่อคน = 12.5/12 = 1.041"
     ],
     "students": {
+        "no.1": {
+            "points": "1.73 = 0.91 + 0.41 +0.41 +0 +0",
+            "actions": {
+                "type": "xxxxxxxxxxx-2 = doubly linked list",
+                "1_linkedlist--1p": "Perfect- 0.91, 6:07 โค้ดมีข้อผิดพลาด DoublyNode ใน construtor ไม่รับ parameter และ ให้ this.data = this.data",
+                "2_addLast--1p": "Weak- 0.41 เขียนโค้ดแต่ไม่ได้อธิบาย algorithm, ไม่มีภาพประกอบการอธิบาย",
+                "3_addFirst--1p": "Weak- 0.41 เขียนโค้ดแต่ไม่ได้อธิบาย algorithm, ไม่มีภาพประกอบการอธิบาย",
+                "4_removeLast--1p": "n/a",
+                "5_removeFirst--1p": "n/a",
+                "note": "Lated Covid-19"
+            }
+        },
         "no.8": {
             "points": "4.29 = 0.91 +0.89 +0.89 +0.8 +0.8",
             "actions": {
