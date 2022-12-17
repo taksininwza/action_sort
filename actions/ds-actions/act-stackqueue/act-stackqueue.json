@@ -1,0 +1,282 @@
+{
+    "ref": "https://docs.google.com/presentation/d/1xlhK-ebbDeeYkduTTxffunq5X1dvee70e7GLVrPbZbk/edit#slide=id.g14c8ef46ce9_0_626",
+    "rule": [
+        "Perfect: x 1.",
+        "Good: x 0.8",
+        "Weak: x 0.5",
+        "Fail: x 0.2",
+        "+:  +0.09",
+        "-:  -0.09",
+        "n/a: x 0.0",
+        "total: 9 points"
+    ],
+    "stackqueue-bonus": [
+        "เงื่อนไข ผู้ส่งงานทั้งหมดน้อยกว่า 50%, ส่งงาน 13 คน คิดเป็น 43% ของ นศ ที่เรียน",
+        "คะแนน 60% ระยะเวลาทั้งหมดที่ดูวีดีโอการสอน (Watch time) ซึ่งแสดงถึงเวลาทั้งหมดที่ นศ ใช้ทบทวนเนื้อหา",
+        "watch time 20 hours = 20 points x 60% = 12 points",
+        "คะแนนพิเศษต่อ 1 คน = 12/13 = 0.923 points"
+    ],
+    "students": {
+        "act-stackqueue  https://youtu.be/6UCfReygUCM พนธกร 01": {
+            "points": "3.96",
+            "note": [
+                "0.8 +0.68 +0.68 +0.5 +0  +0.8 +0.2 +0.2 +0.1 + 0",
+                "https://discord.com/channels/943070632365670410/1038270409491091568/1052458959912575006",
+                "ถ้ามี error ใช้ option time tag ให้ผมด้วยนะครับ จะได้ไม่ต้องเสียเวลาสุ่มหาช่วงที่แก้ไขได้ ถ้าอยากดูขั้นตอนแก้ไขผมจะย้อนมาดูเอง"
+            ],
+            "actions": {
+                "1_Stack_data_structure--1p": "Good, 0.8 ไม่ได้อธิบายโค้ดให้เชื่อมโยงโค้ดกับคำอธิบาย(รูปที่วาดในตอนต้น) ไม่ได้รันโปรแกรม",
+                "2_push_stack--1p": "Weak++, 0.68 อธิบายแค่กรณี root == null แต่ตอนเขียนโค้ดมีเหตการณ์ที่ root ไม่ใช่ null เพิ่มเติมมาด้วย และมี bug เกี่ยวกับ length",
+                "3_pop_stack--1p": "Weak++, 0.68  คำอธิบายเริ่มต้น ไม่ครอบคลุม กรณีที่ มีสมาชิก 1 ตัว เพราะกรณีนี้ต้องปรับ reference ของ top และ bottom ไม่มีการอธิบาย algorithm ของการลบข้อมูลออกไป,แต่ในโค้ดมีการเขียนเหตุการณ์นี้เข้ามา และ14:49 คำอธิบายน่าจะผิดที่บอกว่า ไม่มี ให้ลบ",
+                "4_peek_stack--0.5p": "Prefect, 0.5",
+                "5_to_array_stack--1p": "n/a",
+                "6_Queue_data_structure--1p": "Good, 0.8 ไม่ได้อธิบายโค้ดให้เชื่อมโยงโค้ดกับคำอธิบาย(รูปที่วาดในตอนต้น) ไม่ได้รันโปรแกรม",
+                "7_enqueue--1p": "Fail, 0.2 ฟังก์ชัน EnQueue ไม่ได้เชื่อมโยง node ต่างๆเข้าด้วยกัน ดังนั้น เดินทาง first แล้วตัวถัดไปจะเป็น null ทันที ไม่สามารถเข้าถึงสมาชิกที่เหลือได้",
+                "8_dequeue--1p": "Fail, 0.2 ตอนอธิบายแนวคิดเริ่มต้นไม่ได้อธิบายกรณีเหลือสามาถชิก 1 ตัว แต่ใน code มีเหตุการณ์ดังกล่าว และทำงานจริงไม่ได้เพราะ ฟังก์ชันในข้อก่อนหน้าไม่สมบูรณ์",
+                "9_peek_queue--0.5p": "Fail, 0.1 ฟังก์ชันในข้อก่อนหน้าไม่สมบูรณ์",
+                "10_to_array_queue--1p": "n/a"
+            }
+        },
+        "act-stackqueue https://youtu.be/UyL6iRNPJ0A ปวีณา 20": {
+            "points": "4.16",
+            "note": [
+                "0.71 +0.5 +0.5 +0.25 +0.2  +0.8 +0.2 +0.5 +0 +0.5",
+                "พูด งึมงัมๆ ไม่ค่อยได้ยินเลย"
+            ],
+            "actions": {
+                "1_Stack_data_structure--1p": "Good-, 0.71 ไม่ได้อธิบายโค้ดให้เชื่อมโยงโค้ดกับคำอธิบาย(รูปที่วาดในตอนต้น) ไม่ได้รันโปรแกรม และมีข้อผิดพลาด เนื่องจากไม่ได้กำหนดค่าเริ่มต้น ให้กับ top และ bottom จึงทำให้เมื่อนำมาใช้งาน ทั้ง 2 ตัวมีสถานะเป็น undefined แทนที่จะเป็น null ตาม concept ของ stack",
+                "2_push_stack--1p": "Weak, 0.5 การแสดงผลการรันโปรแกรม ไม่สมบูรณ์ เหมือนยังไม่เข้าใจสิ่งที่ทำ ไม่มีการอธิบาย algorithm ที่ใช้ในการเพิ่มข้อมูล",
+                "3_pop_stack--1p": "Weak, 0.5 ไม่มีการอธิบาย algorithm ที่ใช้ในการเพิ่มข้อมูล",
+                "4_peek_stack--0.5p": "Weak, 0.25 ไม่มีการอธิบาย algorithm ที่ใช้ในการเพิ่มข้อมูล",
+                "5_to_array_stack--1p": "Fail 0.2",
+                "6_Queue_data_structure--1p": "Good, 0.8 ไม่ได้อธิบายโค้ดให้เชื่อมโยงโค้ดกับคำอธิบาย(รูปที่วาดในตอนต้น) ไม่ได้รันโปรแกรม",
+                "7_enqueue--1p": "Fail, 0.2",
+                "8_dequeue--1p": "Weak, 0.5 ไม่มีการอธิบาย algorithm ที่ใช้ ไม่ได้รันโปรแกรม",
+                "9_peek_queue--0.5p": "n/a ไม่ได้เรียงลำดับตามที่กำหนด",
+                "10_to_array_queue--1p": "Weak, 5 ไม่มีการอธิบาย algorithm และย้อนไปทำเรื่องไม่เกี่ยวข้องคือการแก้ไขฟังก์ชันอื่นๆ"
+            }
+        },
+        "act-stackqueue https://youtu.be/thHW_KssHrU ทักษพร 07": {
+            "points": "2.46",
+            "note": [
+                "0.91 +0.5 +0.5 +0.5  + 0.05",
+                "https://youtu.be/nQL5m_qIdQo",
+                "bonus ทำ slide เพื่ออธิบาย stack + 0.05"
+            ],
+            "actions": {
+                "1_Stack_data_structure--1p": "Perfect-, 0.91 มีเรื่องไม่เกี่ยวข้องมาแทรก คือการอธิบาย Queue",
+                "2_push_stack--1p": "Weak, 0.5 ไม่มีการอธิบาย algorithm ที่ใช้",
+                "3_pop_stack--1p": "Weak, 0.5 ไม่มีการอธิบาย algorithm ที่ใช้",
+                "4_peek_stack--0.5p": "Prefect, 0.5",
+                "5_to_array_stack--1p": "",
+                "6_Queue_data_structure--1p": "",
+                "7_enqueue--1p": "",
+                "8_dequeue--1p": "",
+                "9_peek_queue--0.5p": "",
+                "10_to_array_queue--1p": ""
+            }
+        },
+        "act-stackqueue https://youtu.be/dBxAtuFpg_A พิยดา 03": {
+            "points": "1.76",
+            "note": [
+                "0.71 +0.5 +0.5 +0.05",
+                "bonus ทำ slide เพื่ออธิบาย stack + 0.05"
+            ],
+            "actions": {
+                "1_Stack_data_structure--1p": "Good-, 0.71 มีเรื่องไม่เกี่ยวข้องมาแทรก คือการอธิบาย Queue, ไม่ได้รันโปรแกรม",
+                "2_push_stack--1p": "Weak, 0.5 ไม่มีการอธิบาย algorithm ที่ใช้",
+                "3_pop_stack--1p": "Weak, 0.5 ไม่มีการอธิบาย algorithm ที่ใช้",
+                "4_peek_stack--0.5p": "",
+                "5_to_array_stack--1p": "",
+                "6_Queue_data_structure--1p": "",
+                "7_enqueue--1p": "",
+                "8_dequeue--1p": "",
+                "9_peek_queue--0.5p": "",
+                "10_to_array_queue--1p": ""
+            }
+        },
+        "act-stackqueue https://www.youtube.com/watch?v=idnDIGWSuVg ภูธเนศ 26": {
+            "points": "4.47",
+            "note": [
+                "0.71 +0.5 +0.5 +0.5 +0  +0.71 +0.5 +0.5 +0.5 +0 +0.025 +0.025",
+                "bonus ทำ slide เพื่ออธิบาย stack + 0.025",
+                "bonus ทำ slide เพื่ออธิบาย queue + 0.025"
+            ],
+            "actions": {
+                "1_Stack_data_structure--1p": "Good-, 0.71 ไม่ได้อธิบายโค้ดให้เชื่อมโยงโค้ดกับคำอธิบาย(รูปที่วาดในตอนต้น) ไม่ได้รันโปรแกรม",
+                "2_push_stack--1p": "Weak, 0.5 ไม่มีการอธิบาย algorithm ที่ใช้",
+                "3_pop_stack--1p": "Weak, 0.5 ไม่มีการอธิบาย algorithm ที่ใช้",
+                "4_peek_stack--0.5p": "Prefect, 0.5",
+                "5_to_array_stack--1p": "n/a",
+                "6_Queue_data_structure--1p": "Good-, 0.71 ไม่ได้อธิบายโค้ดให้เชื่อมโยงโค้ดกับคำอธิบาย(รูปที่วาดในตอนต้น) ไม่ได้รันโปรแกรม",
+                "7_enqueue--1p": "Weak, 0.5 ไม่มีการอธิบาย algorithm ที่ใช้",
+                "8_dequeue--1p": "Weak, 0.5 ไม่มีการอธิบาย algorithm ที่ใช้ ไม่ได้รันโปรแกรม",
+                "9_peek_queue--0.5p": "Prefect, 0.5",
+                "10_to_array_queue--1p": "n/a"
+            }
+        },
+        "act-stackqueue https://youtu.be/c5OrdieUA1M มนัสวี 19": {
+            "points": "1.5",
+            "note": [
+                "1.5",
+                "bonus ทำ slide เพื่ออธิบาย 1.5"
+            ],
+            "actions": {
+                "1_Stack_data_structure--1p": "n/a",
+                "2_push_stack--1p": "n/a",
+                "3_pop_stack--1p": "n/a",
+                "4_peek_stack--0.5p": "n/a",
+                "5_to_array_stack--1p": "n/a",
+                "6_Queue_data_structure--1p": "n/a",
+                "7_enqueue--1p": "n/a",
+                "8_dequeue--1p": "n/a",
+                "9_peek_queue--0.5p": "n/a",
+                "10_to_array_queue--1p": "n/a"
+            }
+        },
+        "act-stackqueue https://youtu.be/7fnjf9m_Fpo มานิตา 02": {
+            "points": "9.73",
+            "note": [
+                "0.91 +1 +0.91 +0.5 +0.8  +0.91 +1 +1 +0.5 +0.8  +0.25+0.5+0.25+0.4",
+                "bonus ทำ slide เพื่ออธิบาย stack + 0.25",
+                "bonus ทำ slide เพื่ออธิบาย stack.push/pop + 0.5",
+                "bonus ทำ slide เพื่ออธิบาย queue + 0.25",
+                "bonus ทำ slide เพื่ออธิบาย queue.enqueue/dequeue + 0.4"
+            ],
+            "actions": {
+                "1_Stack_data_structure--1p": "Perfect-, 0.91 ไม่ได้รันโปรแกรม",
+                "2_push_stack--1p": "Perfect, 1",
+                "3_pop_stack--1p": "Perfect-, 0.91 หักเรื่อง (), อธิบายเพิ่ม กรณีเรามี function a(){} แล้วเราเรียก a แบบนี้จะหมายถึงเรา reference ไปที่ฟังก์ชันไม่ได้ทำให้ฟังก์ชันนี้ทำงานแต่อย่างใด ส่วนการเรียก a() แบบนี้จะหมายถึงการสั่งให้ฟังก์ชัน a ทำงาน",
+                "4_peek_stack--0.5p": "Prefect, 0.5",
+                "5_to_array_stack--1p": "Good 0.8, ไม่ได้อธิบาย algorithm ประกอบโค้ดเหมือนข้อ 3_pop_stack--1p หรือ 2_push_stack--1p",
+                "6_Queue_data_structure--1p": "Perfect-, 0.91 ไม่ได้รันโปรแกรม และ 26:44 คำอธิบายฟังแล้วมันจะ งงๆ หน่อย เพราะบอกว่าถ้าเอา rear ออกก่อน เพราะ rear มันแปลว่า หาง/ท้าย มันจะขัดๆกับ concept fifo แต่ถ้าสลับชื่อ มันก็จะหาย งง",
+                "7_enqueue--1p": "Perfect, 1",
+                "8_dequeue--1p": "Perfect, 1",
+                "9_peek_queue--0.5p": "Prefect, 0.5",
+                "10_to_array_queue--1p": "Good 0.8, ไม่ได้อธิบาย algorithm ประกอบโค้ดเหมือนข้อ 3_pop_stack--1p หรือ 2_push_stack--1p"
+            }
+        },
+        "act-stackqueue https://youtu.be/J-pS8MasSOA ศรเทพ 08": {
+            "points": "6.81",
+            "note": [
+                "0.8 +1 +0.5 +0.5 +0  +0.8 +1 +1 +0.5+0.71"
+            ],
+            "actions": {
+                "1_Stack_data_structure--1p": "Good, 0.8 ,ไม่ได้รัน และ ตอนอธิบายด้วยภาพ ไม่มี attribute ของ stack ทำให้พอมาเป็นโค้ดจะ งงๆ หน่อยว่าค่าแต่ละตัวคืออะไร",
+                "2_push_stack--1p": "Perfect, 1",
+                "3_pop_stack--1p": "weak+, 0.59 มีเรื่องไม่เกี่ยวข้องระหว่างการอธิบายหัวข้อ (peek) และภาพประกอบการอธิบายไม่ตรงกับโค้ด ในภาพ ทิศทาง -> เริ่มจาก bottom แล้วชี้ไปที่ top ซึ่งจากภาพ top.next จะเท่ากับ null เสมอ ทำให้ผลลัพธ์การอธิบายไม่สอดคล้องกับโค้ด",
+                "4_peek_stack--0.5p": "Prefect, 0.5",
+                "5_to_array_stack--1p": "n/a",
+                "6_Queue_data_structure--1p": "Good, 0.8 อ่าน comment 1_Stack_data_structure--1p แล้วเปลี่ยนจาก stack เป็น queue",
+                "7_enqueue--1p": "Perfect, 1",
+                "8_dequeue--1p": "Perfect, 1",
+                "9_peek_queue--0.5p": "Prefect, 0.5",
+                "10_to_array_queue--1p": "Good- 0.71, อธิบายโค้ดไม่ครบถ้วน โดยเฉพาะใน while loop และไม่ได้อธิบาย algorithm ประกอบโค้ดเหมือนข้อ 7_enqueue--1p หรือ 8_dequeue--1p"
+            }
+        },
+        "act-stackqueue https://www.youtube.com/watch?v=BujSZrFLsdQ&ab_channel=TaksinYodkeeree ทักษิณ 06": {
+            "points": "8.73",
+            "note": [
+                "1 +1 +1 +0.5 +1  +0.91 +0.91 +1 +0.5 +0.91"
+            ],
+            "actions": {
+                "1_Stack_data_structure--1p": "Perfect, 1",
+                "2_push_stack--1p": "Perfect, 1",
+                "3_pop_stack--1p": "Perfect, 1",
+                "4_peek_stack--0.5p": "Prefect, 0.5",
+                "5_to_array_stack--1p": "Perfect, 1",
+                "6_Queue_data_structure--1p": "Perfect-, 0.91 ไม่ได้รันโปรแกรม",
+                "7_enqueue--1p": "Perfect-, 0.91,  code not readable ควรจัด format ให้อ่านง่าย(indent)",
+                "8_dequeue--1p": "Perfect, 1 แต่คำอธิบายขาดไปครับตรงที่ ให้ last = null แล้ว node จะหายไป จริงๆแล้วมันยังไม่หายไปเพราะยังมี first ชี้ไปยัง Node สุดท้ายนี้อยู่ แต่ที่มันหายไปเพราะ ในเงื่อนไขนี้ยังไม่มี return จึงมีการทำงานในส่วนถัดไปคือให้ first = first.next ซึ่ง node สุดท้ายที่มันเหลืออยู่ .next ของมันมีค่าเป็น null ดังนั้น first จึงเป็น Null ในขั้นตอนนี้ และ node ก็จะไม่มี reference ใดๆ ชี้ไปยังตัวมัน จึงถูกกำจัดทิ้งไปในที่สุด",
+                "9_peek_queue--0.5p": "Prefect, 0.5",
+                "10_to_array_queue--1p": "Perfect- , 0.91 อธิบายไม่ชัดเจน ต่างจากการอธิบายในหัวข้อ 5_to_array_stack--1p"
+            }
+        },
+        "act-stackqueue  https://youtu.be/PzsUD1TaoO0 ก้องกาจ 22": {
+            "points": "7.2",
+            "note": [
+                "1 +0.62 +0.62 +0.5 +0.89  +1 +0.59 +0.59 +0.5 +0.89"
+            ],
+            "actions": {
+                "1_Stack_data_structure--1p": "Perfect, 1",
+                "2_push_stack--1p": "Good--, 0.62  algorithm ที่อธิบาย(paint ที่วาดรูปอธิบาย) มีเพียงการ ขยับ top ให้ reference ไปยัง node ล่าสุดแต่ไม่มีการใช้ next(pointer) เพื่อเชื่อมโยง node ต่างๆ เข้าหากัน เหมือนที่เขียนใน โค้ด",
+                "3_pop_stack--1p": "Good--,0.62 algorithm ที่อธิบาย(paint ที่วาดรูปอธิบาย)ยังไม่ครอบคลุมการทำงาน ,ข้อแนะนำ ไม่เกี่ยวกับคะแนน อ่าน comment ของ 06 หัวข้อ 8_dequeue--1p เพิ่มเติมก็ได้ครับ algorithm ที่เราเขียนมามันคล้ายๆกัน ที่แนะนำเพราะเห็นใน คลิป อธิบายไว้ว่า ให้ตัวไหนตัวนึงเป็น null ก็ได้ จริงๆ มันไม่ได้ เพราะมันจะมีผลกับเงื่อนไขที่เราใช้ใน code เช่น หากเราเช็ค (1)top == null แต่พอเราลบตัวสุดท้ายเราให้แค่ bottom เป็น null อย่างเดียว โค้ด (1) จะทำงานผิดพลาดเพราะ top มันยังมีค่าอยู่ ทั้งๆที่ควรจะเป็น null",
+                "4_peek_stack--0.5p": "Prefect, 0.5",
+                "5_to_array_stack--1p": "Good+, 0.89 algorithm ที่อธิบาย(paint ที่วาดรูปอธิบาย)ไม่ได้แสดงวิธีการขยับ node ไปตาม linked list ซึ่งกระบวนการดังกล่าวมีอยู่ใน code",
+                "6_Queue_data_structure--1p": "Perfect, 1",
+                "7_enqueue--1p": "Weak+, 0.59 algorithm ที่อธิบาย(paint ที่วาดรูปอธิบาย) ไม่ครบทุกเหตุการณ์ที่เป็นไปได้ เช่น การ enqueue เมื่อ queue ว่าง(front = rear = null) หรือ วิธีการเชื่อมโยง(linked) ระหว่าง Node ที่ใส่เข้ามา",
+                "8_dequeue--1p": "Weak+, 0.59 อ่าน comment จาก 7_enqueue--1p",
+                "9_peek_queue--0.5p": "Prefect, 0.5",
+                "10_to_array_queue--1p": "Good+, 0.89 อ่าน comment จาก 5_to_array_stack--1p"
+            }
+        },
+        "act-stackqueue  https://youtu.be/WlrazkLo21E ณัฐรัช 16": {
+            "points": "6.385",
+            "note": [
+                "1 +0.59 +0.59 +0.5 +0  +1 +0.59 +0.59 +0.5 +0.8   +0.025+0.1+0.025+0.025+0.025+0.025",
+                "bonus ทำ slide เพื่ออธิบาย stack + 0.025",
+                "bonus ทำ slide เพื่ออธิบาย stack.push + 0.1",
+                "bonus ทำ slide เพื่ออธิบาย stack.pop + 0.025",
+                "bonus ทำ slide เพื่ออธิบาย queue + 0.025",
+                "bonus ทำ slide เพื่ออธิบาย queue.enqueue + 0.025",
+                "bonus ทำ slide เพื่ออธิบาย queue.dequeue + 0.025"
+            ],
+            "actions": {
+                "1_Stack_data_structure--1p": "Perfect, 1",
+                "2_push_stack--1p": "Weak+, 0.59 algorithm ที่อธิบาย(paint ที่วาดรูปอธิบาย) ไม่ครบทุกเหตุการณ์ที่เป็นไปได้ เช่นการ เพิ่มข้อมูลเข้าไปใน stack ว่าง",
+                "3_pop_stack--1p": "Weak+, 0.59 algorithm ที่อธิบาย(paint ที่วาดรูปอธิบาย) ไม่ครบทุกเหตุการณ์ที่เป็นไปได้",
+                "4_peek_stack--0.5p": "Prefect, 0.5",
+                "5_to_array_stack--1p": "n/a",
+                "6_Queue_data_structure--1p": "Perfect, 1",
+                "7_enqueue--1p": "Weak+, 0.59 algorithm ที่อธิบาย(paint ที่วาดรูปอธิบาย) ไม่ครบทุกเหตุการณ์ที่เป็นไปได้",
+                "8_dequeue--1p": "Weak+, 0.59 algorithm ที่อธิบาย(paint ที่วาดรูปอธิบาย) ไม่ครบทุกเหตุการณ์ที่เป็นไปได้",
+                "9_peek_queue--0.5p": "Prefect, 0.5",
+                "10_to_array_queue--1p": "Good 0.8, ไม่ได้อธิบาย algorithm ประกอบโค้ดเหมือนข้อ 3_pop_stack--1p หรือ 2_push_stack--1p"
+            }
+        },
+        "act-stackqueue https://youtu.be/OOPyTxBREUI กฤษณพล 09": {
+            "points": "6.8",
+            "note": [
+                "0.91 +0.62 +0.59 +0.5 +0.8  +0.91 +0.5 +0.62 +0.5 +0.8   +0.025+0.025",
+                "bonus ทำ slide เพื่ออธิบาย stack + 0.025",
+                "bonus ทำ slide เพื่ออธิบาย queue + 0.025"
+            ],
+            "actions": {
+                "1_Stack_data_structure--1p": "Perfect-, 0.91 ไม่ได้รันโปรแกรม",
+                "2_push_stack--1p": "Good--, 0.62 ลำดับการอธิบาย(algorithm) 6:00 ไม่ตรงกับ code ที่เขียน และการอธิบายไม่ครบทุกเหตุการณ์ที่เป็นไปได้",
+                "3_pop_stack--1p": "Weak+, 0.59 algorithm ที่อธิบาย(paint ที่วาดรูปอธิบาย) ไม่ครบทุกเหตุการณ์ที่เป็นไปได้ และไม่อธิบายวิธีการปรับ linked list",
+                "4_peek_stack--0.5p": "Prefect, 0.5",
+                "5_to_array_stack--1p": "Good 0.8, ไม่ได้อธิบาย algorithm ประกอบโค้ด",
+                "6_Queue_data_structure--1p": "Perfect-, 0.91 ไม่ได้รันโปรแกรม",
+                "7_enqueue--1p": "Weak, 0.5 ไม่มีการอธิบาย algorithm ที่ใช้",
+                "8_dequeue--1p": "Good--, 0.62 การอธิบาย algorithm(ภาพประกอบไม่ครอบคลุม) แต่การอธิบายโค้ดเล่าครบทุกเหตุการณ์ที่เป็นไปได้",
+                "9_peek_queue--0.5p": "Prefect, 0.5",
+                "10_to_array_queue--1p": "Good 0.8, ไม่ได้อธิบาย algorithm ประกอบโค้ด"
+            }
+        },
+        "act-stackqueue https://youtu.be/mRfNiVt11dg ยศนันทน์ 04": {
+            "points": "6.15",
+            "note": [
+                "0.2 +0.5 +1 +0.5 +0.8  +0.2 +0.5 +1 +0.5 +0.8    +0.025+0.025+0.025+0.025+0.025+0.025",
+                "bonus ทำ slide เพื่ออธิบาย stack + 0.025",
+                "bonus ทำ slide เพื่ออธิบาย stack.push + 0.025",
+                "bonus ทำ slide เพื่ออธิบาย stack.pop + 0.025",
+                "bonus ทำ slide เพื่ออธิบาย queue + 0.025",
+                "bonus ทำ slide เพื่ออธิบาย queue.enqueue + 0.025",
+                "bonus ทำ slide เพื่ออธิบาย queue.dequeue + 0.025"
+            ],
+            "actions": {
+                "1_Stack_data_structure--1p": "Fail 0.2, ไม่มีการเขียนโค้ด",
+                "2_push_stack--1p": "Weak, 0.5 ระหว่างหัวข้อไปทำเรื่องอื่นคือ 1_Stack_data_structure--1p",
+                "3_pop_stack--1p": "Perfect, 1",
+                "4_peek_stack--0.5p": "Prefect, 0.5",
+                "5_to_array_stack--1p": "Good 0.8, ไม่ได้อธิบาย algorithm ประกอบโค้ด",
+                "6_Queue_data_structure--1p": "Fail 0.2, ไม่มีการเขียนโค้ด",
+                "7_enqueue--1p": "Weak, 0.5 ระหว่างหัวข้อไปทำเรื่องอื่นคือ 6_Queue_data_structure--1p",
+                "8_dequeue--1p": "Perfect, 1",
+                "9_peek_queue--0.5p": "Prefect, 0.5",
+                "10_to_array_queue--1p": "Good 0.8, ไม่ได้อธิบาย algorithm ประกอบโค้ด"
+            }
+        }
+    }
+}
