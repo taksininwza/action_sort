@@ -26,10 +26,10 @@ public class EnemySpawner : MonoBehaviour
 
             for (int i = 0; i < currentWaveConfig.enemyCount; i++)
             {
-                Instantiate(currentWaveConfig.GetEnemyPrefab(i), currentWaveConfig.StartingWaypoint.position, Quaternion.identity, this.transform);
+                Instantiate(currentWaveConfig.GetEnemyPrefab(i), currentWaveConfig.StartingWaypoint.position, Quaternion.Euler(0, 0, 180), this.transform);
                 yield return new WaitForSeconds(currentWaveConfig.SpawnTime);
             }
-            yield return new WaitForSeconds(timeBetweenWave);
+            yield return new WaitForSeconds(timeBetweenWave);// https://www.google.com
         }
         if (isLoopin) goto Loop;
     }

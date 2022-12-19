@@ -12,7 +12,6 @@ public class Shooter : MonoBehaviour
 
     public bool isFiring = false;
     Coroutine firingCoroutine;
-
     private void Update()
     {
         fire();
@@ -42,6 +41,10 @@ public class Shooter : MonoBehaviour
                 rigidbodyBullet.velocity = transform.up * bulletSpeed;
             }
             Destroy(bullet, bulletLifeTime);
+            if (this.tag == "Player")
+                AudioPlayer.Instance.PlayShootingAudio();
+            else
+                AudioPlayer.Instance.PlayEnemyShootingAudio();
             yield return new WaitForSeconds(fireingRate);
         }
     }

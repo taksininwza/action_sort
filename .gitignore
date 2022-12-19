@@ -3,6 +3,7 @@ sandbox/
 out/
 obj/
 Packages/
+Build/
 ProjectSettings/
 Library/
 Temp/
@@ -17,6 +18,7 @@ Materials/
 TextMesh Pro/
 UserSettings/
 WaveConfigs/
+Sounds/
 .vscode/
 *.meta
 *.sln
