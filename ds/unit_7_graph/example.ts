@@ -3,21 +3,21 @@ class Vertex {
 }
 
 class Graph {
-    adjancentList: Vertex = {}
+    adjacentList: Vertex = {}
     numberOfNodes: number = 0
 
     addVertex(node: string) {
         this.numberOfNodes++
-        this.adjancentList[node] = []
+        this.adjacentList[node] = []
     }
     addEdge(node1: string, node2: string) {
-        this.adjancentList[node1].push(node2)
-        this.adjancentList[node2].push(node1)
+        this.adjacentList[node1].push(node2)
+        this.adjacentList[node2].push(node1)
     }
     showConnections() {
-        const allNodes = Object.keys(this.adjancentList)
+        const allNodes = Object.keys(this.adjacentList)
         for (const node of allNodes) {
-            const edges = this.adjancentList[node as keyof object]
+            const edges = this.adjacentList[node as keyof object]
             let connections = ''
             for (const edge of edges) {
                 connections += edge + ' '
