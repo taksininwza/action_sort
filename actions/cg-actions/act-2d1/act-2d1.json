@@ -1,0 +1,245 @@
+{
+    "ref": "https://docs.google.com/presentation/d/1Z12UVZtBUUcjnKjI1JAVlJr6NjyYC0kq3hYDsvS0oxE/edit?usp=sharing",
+    "rule": [
+        "Perfect: x 1.",
+        "Good: x 0.8",
+        "Weak: x 0.5",
+        "Fail: x 0.2",
+        "+:  +0.09",
+        "-:  -0.09",
+        "n/a: x 0.0",
+        "total: 6.5 points"
+    ],
+    "students": {
+        "act-2d1 https://youtu.be/MTjKyGSMqW0 ณัฐวุฒิ 14": {
+            "points": "0.5+0.5+0.4",
+            "actions": {
+                "1_create_player--0.5p": "Prefect 0.5",
+                "2_create_bullet--0.5p": "Prefect 0.5",
+                "3_player_controller--0.5p": "Good 0.8x0.5 = 0.4, 06:45 เริ่มมาก็มี Player input component อยู่แล้ว",
+                "4_player_on_move--0.5p": "",
+                "5_player_on_fire--0.5p": "",
+                "6_create_enemy--0.5p": "",
+                "7_enemy_path--0.5p": "",
+                "8_enemy_move--0.5p": "",
+                "9_enemy_wave--0.5p": "",
+                "10_enemy_spawner--0.5p": "",
+                "11_hp--0.5p": "",
+                "12_bullet_trigger--0.5p": "",
+                "13_bullet_damage--0.5p": "",
+                "note": [
+                    "ชื่อโปรเจค My project(13) ไม่ตรงตามข้อกำหนด สร้างโปรเจคใหม่(actTD)"
+                ]
+            }
+        },
+        "act-2d1  https://youtu.be/455vbj2dP0o นัทธพงศ์ 19": {
+            "points": "",
+            "actions": {
+                "1_create_player--0.5p": "",
+                "2_create_bullet--0.5p": "",
+                "3_player_controller--0.5p": "",
+                "4_player_on_move--0.5p": "",
+                "5_player_on_fire--0.5p": "",
+                "6_create_enemy--0.5p": "",
+                "7_enemy_path--0.5p": "",
+                "8_enemy_move--0.5p": "",
+                "9_enemy_wave--0.5p": "",
+                "10_enemy_spawner--0.5p": "",
+                "11_hp--0.5p": "",
+                "12_bullet_trigger--0.5p": "",
+                "13_bullet_damage--0.5p": "",
+                "note": []
+            }
+        },
+        "act-td1 https://youtu.be/aC8Z-t7rYJc ปราชญ์พสิษฐ์ 3": {
+            "points": "",
+            "actions": {
+                "1_create_player--0.5p": "",
+                "2_create_bullet--0.5p": "",
+                "3_player_controller--0.5p": "",
+                "4_player_on_move--0.5p": "",
+                "5_player_on_fire--0.5p": "",
+                "6_create_enemy--0.5p": "",
+                "7_enemy_path--0.5p": "",
+                "8_enemy_move--0.5p": "",
+                "9_enemy_wave--0.5p": "",
+                "10_enemy_spawner--0.5p": "",
+                "11_hp--0.5p": "",
+                "12_bullet_trigger--0.5p": "",
+                "13_bullet_damage--0.5p": "",
+                "note": []
+            }
+        },
+        "act-2d1 https://youtu.be/If4OeD8PcL4 ภูวดล 21": {
+            "points": "",
+            "actions": {
+                "1_create_player--0.5p": "",
+                "2_create_bullet--0.5p": "",
+                "3_player_controller--0.5p": "",
+                "4_player_on_move--0.5p": "",
+                "5_player_on_fire--0.5p": "",
+                "6_create_enemy--0.5p": "",
+                "7_enemy_path--0.5p": "",
+                "8_enemy_move--0.5p": "",
+                "9_enemy_wave--0.5p": "",
+                "10_enemy_spawner--0.5p": "",
+                "11_hp--0.5p": "",
+                "12_bullet_trigger--0.5p": "",
+                "13_bullet_damage--0.5p": "",
+                "note": []
+            }
+        },
+        "act-2d1 https://youtu.be/Y-UR4Sfmixg ภูรินทรรัชน์ 11": {
+            "points": "",
+            "actions": {
+                "1_create_player--0.5p": "",
+                "2_create_bullet--0.5p": "",
+                "3_player_controller--0.5p": "",
+                "4_player_on_move--0.5p": "",
+                "5_player_on_fire--0.5p": "",
+                "6_create_enemy--0.5p": "",
+                "7_enemy_path--0.5p": "",
+                "8_enemy_move--0.5p": "",
+                "9_enemy_wave--0.5p": "",
+                "10_enemy_spawner--0.5p": "",
+                "11_hp--0.5p": "",
+                "12_bullet_trigger--0.5p": "",
+                "13_bullet_damage--0.5p": "",
+                "note": []
+            }
+        },
+        "act-2d1 https://youtu.be/xufYNTMnXT0 เพ็ญนภา15": {
+            "points": "",
+            "actions": {
+                "1_create_player--0.5p": "",
+                "2_create_bullet--0.5p": "",
+                "3_player_controller--0.5p": "",
+                "4_player_on_move--0.5p": "",
+                "5_player_on_fire--0.5p": "",
+                "6_create_enemy--0.5p": "",
+                "7_enemy_path--0.5p": "",
+                "8_enemy_move--0.5p": "",
+                "9_enemy_wave--0.5p": "",
+                "10_enemy_spawner--0.5p": "",
+                "11_hp--0.5p": "",
+                "12_bullet_trigger--0.5p": "",
+                "13_bullet_damage--0.5p": "",
+                "note": []
+            }
+        },
+        "act-2d1 https://youtu.be/NHsIt4Jckrw วริทธิ์นันท์ 6": {
+            "points": "",
+            "actions": {
+                "1_create_player--0.5p": "",
+                "2_create_bullet--0.5p": "",
+                "3_player_controller--0.5p": "",
+                "4_player_on_move--0.5p": "",
+                "5_player_on_fire--0.5p": "",
+                "6_create_enemy--0.5p": "",
+                "7_enemy_path--0.5p": "",
+                "8_enemy_move--0.5p": "",
+                "9_enemy_wave--0.5p": "",
+                "10_enemy_spawner--0.5p": "",
+                "11_hp--0.5p": "",
+                "12_bullet_trigger--0.5p": "",
+                "13_bullet_damage--0.5p": "",
+                "note": []
+            }
+        },
+        "act-2d1 https://youtu.be/fgvNQFV9_nE เทพรักษ์ 8": {
+            "points": "",
+            "actions": {
+                "1_create_player--0.5p": "",
+                "2_create_bullet--0.5p": "",
+                "3_player_controller--0.5p": "",
+                "4_player_on_move--0.5p": "",
+                "5_player_on_fire--0.5p": "",
+                "6_create_enemy--0.5p": "",
+                "7_enemy_path--0.5p": "",
+                "8_enemy_move--0.5p": "",
+                "9_enemy_wave--0.5p": "",
+                "10_enemy_spawner--0.5p": "",
+                "11_hp--0.5p": "",
+                "12_bullet_trigger--0.5p": "",
+                "13_bullet_damage--0.5p": "",
+                "note": []
+            }
+        },
+        "act-2d1 https://youtu.be/-whdMbtKzZ8 สิรีธร 24": {
+            "points": "",
+            "actions": {
+                "1_create_player--0.5p": "",
+                "2_create_bullet--0.5p": "",
+                "3_player_controller--0.5p": "",
+                "4_player_on_move--0.5p": "",
+                "5_player_on_fire--0.5p": "",
+                "6_create_enemy--0.5p": "",
+                "7_enemy_path--0.5p": "",
+                "8_enemy_move--0.5p": "",
+                "9_enemy_wave--0.5p": "",
+                "10_enemy_spawner--0.5p": "",
+                "11_hp--0.5p": "",
+                "12_bullet_trigger--0.5p": "",
+                "13_bullet_damage--0.5p": "",
+                "note": []
+            }
+        },
+        "act-2d1 https://youtu.be/0QE9Az_yge0 นพัสสร 9": {
+            "points": "",
+            "actions": {
+                "1_create_player--0.5p": "",
+                "2_create_bullet--0.5p": "",
+                "3_player_controller--0.5p": "",
+                "4_player_on_move--0.5p": "",
+                "5_player_on_fire--0.5p": "",
+                "6_create_enemy--0.5p": "",
+                "7_enemy_path--0.5p": "",
+                "8_enemy_move--0.5p": "",
+                "9_enemy_wave--0.5p": "",
+                "10_enemy_spawner--0.5p": "",
+                "11_hp--0.5p": "",
+                "12_bullet_trigger--0.5p": "",
+                "13_bullet_damage--0.5p": "",
+                "note": []
+            }
+        },
+        "act-2d1 https://youtu.be/IO2Z6jWSYtY ธีรยุทธ 7": {
+            "points": "",
+            "actions": {
+                "1_create_player--0.5p": "",
+                "2_create_bullet--0.5p": "",
+                "3_player_controller--0.5p": "",
+                "4_player_on_move--0.5p": "",
+                "5_player_on_fire--0.5p": "",
+                "6_create_enemy--0.5p": "",
+                "7_enemy_path--0.5p": "",
+                "8_enemy_move--0.5p": "",
+                "9_enemy_wave--0.5p": "",
+                "10_enemy_spawner--0.5p": "",
+                "11_hp--0.5p": "",
+                "12_bullet_trigger--0.5p": "",
+                "13_bullet_damage--0.5p": "",
+                "note": []
+            }
+        },
+        "act-2d1 https://youtu.be/Jar097cRnFQ นิธิ 16": {
+            "points": "",
+            "actions": {
+                "1_create_player--0.5p": "",
+                "2_create_bullet--0.5p": "",
+                "3_player_controller--0.5p": "",
+                "4_player_on_move--0.5p": "",
+                "5_player_on_fire--0.5p": "",
+                "6_create_enemy--0.5p": "",
+                "7_enemy_path--0.5p": "",
+                "8_enemy_move--0.5p": "",
+                "9_enemy_wave--0.5p": "",
+                "10_enemy_spawner--0.5p": "",
+                "11_hp--0.5p": "",
+                "12_bullet_trigger--0.5p": "",
+                "13_bullet_damage--0.5p": "",
+                "note": []
+            }
+        }
+    }
+}
