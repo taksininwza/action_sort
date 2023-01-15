@@ -7,26 +7,58 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] Vector2 moveSpeed = new Vector2(10, 10);
+    [SerializeField] GameObject bullet;
+    [SerializeField] Transform gun;
     Rigidbody2D rigidbody2d;
-    CapsuleCollider2D collider2d;
+    CapsuleCollider2D bodyCollider2d;
+    BoxCollider2D feetCollider2d;
     Animator animator;
     Vector2 moveInput;
+    bool isAlive = true;
+    int enemyLayerMask;
     private void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        collider2d = GetComponent<CapsuleCollider2D>();
+        bodyCollider2d = GetComponent<CapsuleCollider2D>();
+        feetCollider2d = GetComponent<BoxCollider2D>();
+        enemyLayerMask = LayerMask.GetMask("Enemies", "Hazards");
     }
     private void Update()
     {
+        if (isAlive == false)
+        {
+            float turnSpeed = 8 * Time.deltaTime;
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, 0, 90), turnSpeed);
+            animator.Play("Player Fall");
+            return;
+        };
         run();
+        die();
     }
+
+    private void die()
+    {
+        if (bodyCollider2d.IsTouchingLayers(enemyLayerMask))
+        {
+            isAlive = false;
+            GameSession.Instance.OnPlayerDeath();
+        }
+    }
+
     bool isOnGround
     {
         get
         {
             int groundLayer = LayerMask.GetMask("Ground");
-            return collider2d.IsTouchingLayers(groundLayer);
+            return feetCollider2d.IsTouchingLayers(groundLayer);
+        }
+    }
+    bool isFalling
+    {
+        get
+        {
+            return rigidbody2d.velocity.y < 0;
         }
     }
     bool isHorizontalMoving
@@ -55,34 +87,46 @@ public class PlayerMovement : MonoBehaviour
         rigidbody2d.velocity = velocity;
         animator.SetBool("IsRunning", isHorizontalMoving);
         flipSprite();
-        jumpAnimation();
+        jumpingAnimation();
+        fallingAnimation();
     }
 
-    private void jumpAnimation()
+    private void fallingAnimation()
     {
-        if (animator.GetBool("IsJumping") && rigidbody2d.velocity.y < 0)
+        animator.SetBool("IsFalling", (isFalling && !isOnGround));
+    }
+
+    private void jumpingAnimation()
+    {
+        if (animator.GetBool("IsJumping") && isFalling)
         {
             animator.SetBool("IsJumping", false);
             animator.SetBool("IsFalling", true);
-        }
-        if (animator.GetBool("IsFalling") && isOnGround)
-        {
-            animator.SetBool("IsFalling", false);
         }
     }
 
     void OnMove(InputValue inputValue)
     {
+        if (isAlive == false) return;
         moveInput = inputValue.Get<Vector2>();
     }
 
     void OnJump(InputValue inputValue)
     {
+        if (isAlive == false) return;
         if (inputValue.isPressed && isOnGround)
         {
             Vector2 velocity = new Vector2(0f, moveSpeed.y);
             rigidbody2d.velocity += velocity;
             animator.SetBool("IsJumping", true);
         }
+    }
+
+    void OnFire(InputValue inputValue)
+    {
+        if (isAlive == false) return;
+        float xScale = Mathf.Sign(transform.localScale.x);
+        bullet.transform.localScale = new Vector3(xScale, 1, 1);
+        Instantiate(bullet, gun.position, transform.rotation);
     }
 }
