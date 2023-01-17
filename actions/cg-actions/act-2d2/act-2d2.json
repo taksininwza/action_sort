@@ -1,0 +1,221 @@
+{
+    "ref": "https://docs.google.com/presentation/d/1Wap-gqETWYOowmxlOWne9SIx_llnEA1qIxCIfcDT-0M/edit#slide=id.g1b11ffe80b8_0_47",
+    "rule": [
+        "Perfect: x 1.",
+        "Good: x 0.8",
+        "Weak: x 0.5",
+        "Fail: x 0.2",
+        "+:  +0.09",
+        "-:  -0.09",
+        "n/a: x 0.0",
+        "total: 8 points"
+    ],
+    "students": {
+        "act-td2 https://youtu.be/WVRhmZDKw_A พีรวิชญ์ 23": {
+            "points": "7.75",
+            "actions": {
+                "1_ememy_bullet--0.5p": "0.5",
+                "2_random_fire--0.5p": "0.5",
+                "3_hit_effect--0.5p": "0.5",
+                "4_player_effect--0.5p": "0.5",
+                "5_enemy_effect--0.5p": "0.5",
+                "6_multi_enemy--0.5p": "0.5",
+                "7_multi_wave--0.5p": "0.5",
+                "8_parallax_scrolling--0.5p": "0.25 , ไม่ใช่ parallax_scrolling เพราะมีแค่ 1 layer",
+                "9_score_manager--0.5p": "0.5",
+                "10_game_ui--0.5p": "0.5",
+                "11_create_scene--0.5p": "0.5",
+                "12_audio_manager--0.5p": "0.5",
+                "13_music--0.5p": "0.5",
+                "14_fire_audio--0.5p": "0.5",
+                "15_explosion_audio--0.5p": "0.5",
+                "16_hit_audio--0.5p": "0.5",
+                "note": []
+            }
+        },
+        "act-td2 https://youtu.be/CLcR_kSfsTA นิธิ 16": {
+            "points": "6.5",
+            "actions": {
+                "1_ememy_bullet--0.5p": "0.5",
+                "2_random_fire--0.5p": "n/a",
+                "3_hit_effect--0.5p": "0.5",
+                "4_player_effect--0.5p": "0.5",
+                "5_enemy_effect--0.5p": "0.5",
+                "6_multi_enemy--0.5p": "0.5",
+                "7_multi_wave--0.5p": "0.5",
+                "8_parallax_scrolling--0.5p": "0.5",
+                "9_score_manager--0.5p": "0.5",
+                "10_game_ui--0.5p": "0.5",
+                "11_create_scene--0.5p": "n/a",
+                "12_audio_manager--0.5p": "0.5",
+                "13_music--0.5p": "0.5",
+                "14_fire_audio--0.5p": "0.25",
+                "15_explosion_audio--0.5p": "0.25",
+                "16_hit_audio--0.5p": "0.5",
+                "note": []
+            }
+        },
+        "act-td2 https://youtu.be/rCPYo6i749c เทพรักษ์ 8": {
+            "points": "2.85",
+            "actions": {
+                "1_ememy_bullet--0.5p": "0.5",
+                "2_random_fire--0.5p": "n/a",
+                "3_hit_effect--0.5p": "0.4",
+                "4_player_effect--0.5p": "0.25",
+                "5_enemy_effect--0.5p": "0.25",
+                "6_multi_enemy--0.5p": "0.25",
+                "7_multi_wave--0.5p": "0.1 , มีไม่ครบตามที่กำหนด",
+                "8_parallax_scrolling--0.5p": "0.25",
+                "9_score_manager--0.5p": "n/a",
+                "10_game_ui--0.5p": "0.25",
+                "11_create_scene--0.5p": "n/a",
+                "12_audio_manager--0.5p": "0.1 , ไม่ใช่ Singleton ตามที่กำหนด",
+                "13_music--0.5p": "0.25",
+                "14_fire_audio--0.5p": "0.25",
+                "15_explosion_audio--0.5p": "n/a",
+                "16_hit_audio--0.5p": "n/a",
+                "note": [
+                    "ภาพใบหน้า ใหญ่โต บดบัง หน้าจอหมดเลย",
+                    "จากข้อกำหนด ต้องเรียงลำดับการทำงานตามหัวข้อ เท่านั้น แต่ yt description เวลาข้ามไปข้ามมา"
+                ]
+            }
+        },
+        "act-td2 https://youtu.be/lXWJ8WzWzwY เพ็ญนภา 15": {
+            "points": "7.2",
+            "actions": {
+                "1_ememy_bullet--0.5p": "0.5",
+                "2_random_fire--0.5p": "n/a",
+                "3_hit_effect--0.5p": "0.5",
+                "4_player_effect--0.5p": "0.35 , การทำลาย effect กำหนดเวลาตายตัวทำให้ไม่สอดคล้องกับ effect ที่สร้าง",
+                "5_enemy_effect--0.5p": "0.35",
+                "6_multi_enemy--0.5p": "0.5",
+                "7_multi_wave--0.5p": "0.5",
+                "8_parallax_scrolling--0.5p": "0.5",
+                "9_score_manager--0.5p": "0.5",
+                "10_game_ui--0.5p": "0.5",
+                "11_create_scene--0.5p": "0.5",
+                "12_audio_manager--0.5p": "0.5",
+                "13_music--0.5p": "0.5",
+                "14_fire_audio--0.5p": "0.5",
+                "15_explosion_audio--0.5p": "0.5",
+                "16_hit_audio--0.5p": "0.5",
+                "note": []
+            }
+        },
+        "act-td2 https://youtu.be/MRcAqG_t4vI สิรีธร 24": {
+            "points": "6.1",
+            "actions": {
+                "1_ememy_bullet--0.5p": "0.5",
+                "2_random_fire--0.5p": "n/a",
+                "3_hit_effect--0.5p": "0.5",
+                "4_player_effect--0.5p": "0.5",
+                "5_enemy_effect--0.5p": "0.1",
+                "6_multi_enemy--0.5p": "0.5",
+                "7_multi_wave--0.5p": "0.5",
+                "8_parallax_scrolling--0.5p": "0.5",
+                "9_score_manager--0.5p": "0.5",
+                "10_game_ui--0.5p": "n/a",
+                "11_create_scene--0.5p": "n/a",
+                "12_audio_manager--0.5p": "0.5",
+                "13_music--0.5p": "0.5",
+                "14_fire_audio--0.5p": "0.5",
+                "15_explosion_audio--0.5p": "0.5",
+                "16_hit_audio--0.5p": "0.5",
+                "note": []
+            }
+        },
+        "act-td2 https://youtu.be/PQbLBYrtb0g ภูวดล 21": {
+            "points": "2.55",
+            "actions": {
+                "1_ememy_bullet--0.5p": "0.5",
+                "2_random_fire--0.5p": "n/a",
+                "3_hit_effect--0.5p": "0.3 เวลาที่เริ่มทำ 22:00 แต่เขียนใน description 25:04",
+                "4_player_effect--0.5p": "0.25 ไม่ได้ใช้จากข้อ 3",
+                "5_enemy_effect--0.5p": "0.5",
+                "6_multi_enemy--0.5p": "0.5",
+                "7_multi_wave--0.5p": "0.5",
+                "8_parallax_scrolling--0.5p": "n/a",
+                "9_score_manager--0.5p": "n/a",
+                "10_game_ui--0.5p": "n/a",
+                "11_create_scene--0.5p": "n/a",
+                "12_audio_manager--0.5p": "n/a",
+                "13_music--0.5p": "n/a",
+                "14_fire_audio--0.5p": "n/a",
+                "15_explosion_audio--0.5p": "n/a",
+                "16_hit_audio--0.5p": "n/a",
+                "note": []
+            }
+        },
+        "act-td2 https://youtu.be/mRi4KfGPOT0 ปราชญ์พสิษ์ 3": {
+            "points": "1.9",
+            "actions": {
+                "1_ememy_bullet--0.5p": "0.5",
+                "2_random_fire--0.5p": "0 , ทำไมไปแทรกระหว่างเรื่องที่ 1",
+                "3_hit_effect--0.5p": "0.4",
+                "4_player_effect--0.5p": "0.5",
+                "5_enemy_effect--0.5p": "n/a",
+                "6_multi_enemy--0.5p": "n/a",
+                "7_multi_wave--0.5p": "n/a",
+                "8_parallax_scrolling--0.5p": "0.25 , ไม่ใช่ parallax_scrolling เพราะมีแค่ 1 layer",
+                "9_score_manager--0.5p": "n/a",
+                "10_game_ui--0.5p": "n/a",
+                "11_create_scene--0.5p": "n/a",
+                "12_audio_manager--0.5p": "0.1, ช่วงเวลาที่เขียนให้ใน yt desc ไปซ้อนทับกับหัวข้ออื่นๆ",
+                "13_music--0.5p": "0.05, ช่วงเวลาที่เขียนให้ใน yt desc ไปซ้อนทับกับหัวข้ออื่นๆ",
+                "14_fire_audio--0.5p": "0.05, ช่วงเวลาที่เขียนให้ใน yt desc ไปซ้อนทับกับหัวข้ออื่นๆ",
+                "15_explosion_audio--0.5p": "0.05, ช่วงเวลาที่เขียนให้ใน yt desc ไปซ้อนทับกับหัวข้ออื่นๆ",
+                "16_hit_audio--0.5p": "n/a",
+                "note": []
+            }
+        },
+        "act-td2  https://youtu.be/DdRnZSdYPR0 นัทธพงศ์ 19": {
+            "points": "2.25",
+            "actions": {
+                "1_ememy_bullet--0.5p": "0.5",
+                "2_random_fire--0.5p": "n/a",
+                "3_hit_effect--0.5p": "0.5",
+                "4_player_effect--0.5p": "0.5",
+                "5_enemy_effect--0.5p": "0.5",
+                "6_multi_enemy--0.5p": "n/a",
+                "7_multi_wave--0.5p": "n/a",
+                "8_parallax_scrolling--0.5p": "0.25 , ไม่ใช่ parallax_scrolling เพราะขยับแค่ 1 layer",
+                "9_score_manager--0.5p": "n/a",
+                "10_game_ui--0.5p": "n/a",
+                "11_create_scene--0.5p": "n/a",
+                "12_audio_manager--0.5p": "n/a",
+                "13_music--0.5p": "n/a",
+                "14_fire_audio--0.5p": "n/a",
+                "15_explosion_audio--0.5p": "n/a",
+                "16_hit_audio--0.5p": "n/a",
+                "note": [
+                    "ภาพใบหน้า ใหญ่โต บดบัง หน้าจอหมดเลย",
+                    "หลายๆช่วงเวลาไม่มีเสียง/เสียงเบาสุดๆ"
+                ]
+            }
+        },
+        "act-td2 https://youtu.be/yooWCieJy10 ณัฐวุฒิ 14": {
+            "points": "5.25",
+            "actions": {
+                "1_ememy_bullet--0.5p": "0.5",
+                "2_random_fire--0.5p": "0.5",
+                "3_hit_effect--0.5p": "0.5",
+                "4_player_effect--0.5p": "0.5",
+                "5_enemy_effect--0.5p": "0.5",
+                "6_multi_enemy--0.5p": "0.5",
+                "7_multi_wave--0.5p": "0.5",
+                "8_parallax_scrolling--0.5p": "0.5",
+                "9_score_manager--0.5p": "0.25",
+                "10_game_ui--0.5p": "n/a",
+                "11_create_scene--0.5p": "n/a",
+                "12_audio_manager--0.5p": "n/a",
+                "13_music--0.5p": "n/a",
+                "14_fire_audio--0.5p": "n/a",
+                "15_explosion_audio--0.5p": "n/a",
+                "16_hit_audio--0.5p": "n/a",
+                "note": [
+                    "bonus: +1 เขียน yt description ละเอียดช่วบให้ตรวจได้ง่าย"
+                ]
+            }
+        }
+    }
+}
